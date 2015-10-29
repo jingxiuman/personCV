@@ -4,4 +4,4 @@
 ReactDOM.render(
     <h1>qweqweqwe</h1>,
     document.getElementById('example')
-)
+);
