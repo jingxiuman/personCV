@@ -2,5 +2,7 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{CV node_modules}" />
+    <file url="PROJECT" libraries="{Node.js v4.2.1 Core Modules}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
   </component>
 </project>
