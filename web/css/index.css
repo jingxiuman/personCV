@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1446096422_7251735.eot');
+  /* IE9*/
+  src: url('//at.alicdn.com/t/font_1446096422_7251735.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/font_1446096422_7251735.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/font_1446096422_7251735.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_1446096422_7251735.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: iconfont;
+  font-size: 10px;
+}
+body {
+  font-size: 1.2rem;
+}
+html,
+body,
+.container,
+.index_rightMain,
+.index_right_line,
+#contain {
+  height: 100%;
+}
+.img {
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+.index_bg {
+  position: absolute;
+  left: 0%;
+  right: 0;
+  top: 0;
+  bottom: 0%;
+  background-image: url(../img/bg.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  z-index: 0;
+}
+.index_leftNav,
+.index_rightMain {
+  z-index: 1;
+}
+.index_leftNav {
+  flex: 1;
+  background-color: rgba(47, 45, 45, 0.6);
+  position: relative;
+  -webkit-box-shadow: 2px 0px 2px #6F6A6A;
+  -moz-box-shadow: 2px 0px 2px #6F6A6A;
+  box-shadow: 2px 0px 2px #6F6A6A;
+}
+.index_rightMain {
+  flex: 3;
+  position: relative;
+}
+.index_left_person {
+  padding: 15%;
+}
+.index_left_person img {
+  border-radius: 50%;
+}
+.index_left_name {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+ul.index_left_list {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  list-style: none;
+  line-height: 3.5rem;
+  margin: 15%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0;
+}
+ul.index_left_list a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.index_left_copyright {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  font-size: 2rem;
+}
+ul.index_share_list {
+  list-style: none;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  margin: 10% 0;
+}
+ul.index_share_list li {
+  flex: 1;
+  display: inline-block;
+}
+ul.index_share_list li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.index_left_info {
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  background-color: #000000;
+  padding: 5%;
+}
+.index_left_info span {
+  display: block;
+}
+.index_right_line {
+  position: absolute;
+  background-color: #A7BFC1;
+  height: inherit;
+  width: .3rem;
+  margin: 0 5%;
+}
+.index_right_item {
+  margin-left: 10%;
+  position: relative;
+  display: flex;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 1%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+.index_right_pic {
+  flex: 1;
+}
+.index_right_content {
+  flex: 3;
+  padding: .5rem;
+}
+.index_right_content h2 {
+  text-align: center ;
+  margin: .5rem;
+}
+.index_right_info {
+  text-align: center;
+  color: #9E9A9A;
+}
+.index_right_main {
+  padding: .2rem .5rem;
+  color: #3E3C3C;
+}
+.index_right_circle {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: rgba(226, 221, 221, 0.98);
+  top: 36%;
+  left: -5.5rem;
+  border-radius: 2rem;
+}
+.index_right_strangle {
+  border-style: solid;
+  border-color: transparent rgba(253, 253, 253, 0.59) transparent transparent;
+  position: absolute;
+  left: -4rem;
+  top: 30%;
+  border-width: 2rem;
+}
+.index_rightContent_main {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+.blog_rightMain {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.blog_main {
+  background: rgba(255, 255, 255, 0.64);
+  margin: 3%;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.blog_header {
+  text-align: center;
+}
+.blog_info {
+  color: #A7A3A3;
+  border-bottom: 1px solid #9A9999;
+  padding-bottom: 1%;
+}
+.blog_body {
+  margin: 1% 2%;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: #4C4848;
+}
+.index_rightMain.list_main {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.list_item {
+  margin: 2%;
+  border-radius: 1rem;
+  display: flex;
+  background: rgba(255, 255, 255, 0.63);
+}
+.list_pic {
+  flex: 1;
+  padding: 2%;
+}
+.list_info {
+  flex: 2;
+  text-align: center;
+}
+.list_info_item {
+  color: #9E9393;
+}
+.list_body {
+  text-align: left;
+  font-size: 1.7rem;
+  margin: 2%;
+  line-height: 2.5rem;
+}
+.list_address {
+  text-align: left;
+  margin-left: 5%;
+  font-size: 2rem;
+}
+.list_address a {
+  color: #646464;
+}
