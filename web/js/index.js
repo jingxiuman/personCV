@@ -78,9 +78,12 @@ var LeftNavMain = React.createClass({
 
 //右部
 var RightItem = React.createClass({
+    handleClick: function (event) {
+        alert(event.isSameNode)
+    },
     render: function () {
         return (
-            <div className="index_right_item">
+            <div className="index_right_item" ar onClick={this.handleClick}>
                 <div className="index_right_strangle"></div>,
                 <div className="index_right_circle"></div>,
                 <div className="index_right_pic">
@@ -167,7 +170,7 @@ var Main = React.createClass({
                             newsSee: '000',
                             newsCreateTime: '2015-12-23',
                             newsAuthor: 'admin',
-                            newsContent: '在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，然用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，变量都不再是固定值，这样就更容易的实现了改变变量的目的。'
+                            newsContent: ''
                         }
                     ]
                 }
