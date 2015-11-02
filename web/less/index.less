@@ -118,8 +118,8 @@ ul.index_share_list {
  font-size: 1.5rem;
  background-color: rgb(0, 0, 0);
  padding: 5%;
- span{
-  display: block;
+ .index_left_info_span{
+    display: block;
  }
 }
 .index_right_line{
@@ -185,7 +185,7 @@ ul.index_share_list {
  overflow-y: auto;
 }
 .blog_main {
- background: rgba(255, 255, 255, 0.64);
+ background: #ffffff;
  margin: 3%;
  border-radius: 1rem;
  padding: 1rem;
@@ -239,4 +239,14 @@ ul.index_share_list {
  a{
   color: #646464;
  }
+}
+#blogContent{
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 25%;
+  background-color: rgba(4, 4, 4, 0.42);
+  z-index: 5;
 }

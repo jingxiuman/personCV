@@ -21,7 +21,8 @@ html,
 body,
 .container,
 .index_rightMain,
-.index_right_line {
+.index_right_line,
+#contain {
   height: 100%;
 }
 .img {
@@ -119,7 +120,7 @@ ul.index_share_list li a {
   background-color: #000000;
   padding: 5%;
 }
-.index_left_info span {
+.index_left_info .index_left_info_span {
   display: block;
 }
 .index_right_line {
@@ -184,7 +185,11 @@ ul.index_share_list li a {
   overflow-x: hidden;
   overflow-y: auto;
 }
+.blog_rightMain .blog_main {
+  display: block;
+}
 .blog_main {
+  display: none;
   background: rgba(255, 255, 255, 0.64);
   margin: 3%;
   border-radius: 1rem;

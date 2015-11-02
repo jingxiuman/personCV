@@ -54,8 +54,8 @@ var LeftCopyright = React.createClass({
             <div className="index_left_copyright">
                 <LeftShare data={this.props.data.share}/>
                 <div className="index_left_info">
-                    <span>版权所有：{this.props.data.copyInfo}</span>
-                    <span>备案号：{this.props.data.copyNum}</span>
+                    <span className="index_left_info_span">版权所有：{this.props.data.copyInfo}</span>
+                    <span  className="index_left_info_span">备案号：{this.props.data.copyNum}</span>
                 </div>
             </div>
         )
@@ -75,15 +75,68 @@ var LeftNavMain = React.createClass({
         )
     }
 });
-
-//右部
-var RightItem = React.createClass({
-    handleClick: function (event) {
-        alert(event.isSameNode)
+//博客内容组件
+var Blog = React.createClass({
+    getInitialState: function () {
+        return {
+            data: {
+                "id": '',
+                "newsPic": "",
+                "newsTitle": "",
+                "newsSee": "",
+                "newsCreateTime": "",
+                "newsAuthor": "",
+                "newsContent": "",
+                "newsChangeTime":'',
+                "newsComment":""
+            }
+        }
+    },
+    componentDidMount: function () {
+        $.ajax({
+            url:this.props.url,
+            dataType:'json',
+            type:'get',
+            data:{
+                blog_id:this.props.blogId
+            },
+            success: function (data) {
+                console.log('yes');
+                this.setState({data:data})
+            }.bind(this)
+        })
     },
     render: function () {
         return (
-            <div className="index_right_item" ar onClick={this.handleClick}>
+            <div className="blog_main">
+                <div className="blog_header">
+                    <h1>{this.state.data.newsTitle}</h1>
+                    <div className="blog_info">
+                        浏览数：<span>{this.state.data.newsSee}</span>
+                        作者：<span>{this.state.data.newsAuthor}</span>
+                        评论数：<span>{this.state.data.newsComment}</span>
+                        创建时间：<span>{this.state.data.newsCreateTime}</span>
+                        修改时间：<span>{this.state.data.newsChangeTime}</span></div>
+                </div>
+                <div className="blog_body">
+                    {this.state.data.newsContent}
+                </div>
+            </div>
+        )
+    }
+});
+//右部
+var RightItem = React.createClass({
+    handleClick: function (event) {
+        $("#blogContent").show();
+        ReactDOM.render(
+            <Blog url='server/blog.json' blogId={this.props.data.id}/>,
+              document.getElementById("blogContent")
+        )
+    },
+    render: function () {
+        return (
+            <div className="index_right_item" onClick={this.handleClick}>
                 <div className="index_right_strangle"></div>,
                 <div className="index_right_circle"></div>,
                 <div className="index_right_pic">
@@ -104,14 +157,14 @@ var RightMain = React.createClass({
     render: function () {
         var itemNode = this.props.data.news.map(function (value) {
             return (
-                <RightItem data={value}  key={value.id}/>
+                <RightItem data={value} key={value.id}/>
             )
         });
         return (
 
             <div className="index_rightMain">
                 <div className="index_right_line"></div>
-                <div className="index_rightContent_main">
+                <div className="index_rightContent_main"  >
                     {itemNode}
                 </div>
             </div>
@@ -119,27 +172,7 @@ var RightMain = React.createClass({
     }
 });
 
-//博客内容组件
-var blog = React.createClass({
-    render: function () {
-        return (
-            <div class="blog_main">
-                <div class="blog_header">
-                    <h1>{this.props.data.newsTitle}</h1>
-                    <div class="blog_info">
-                        浏览数：<span>{this.props.data.newsTitle}</span>
-                        作者：<span>{this.props.data.newsAdmin}</span>
-                        评论数：<span>{this.props.data.newsCommentNum}</span>
-                        创建时间：<span>{this.props.data.newsCreateTime}</span>
-                        修改时间：<span>{this.props.data.newsChangeTime}</span></div>
-                </div>
-                <div class="blog_body">
-                    {this.props.data.newsContent}
-                </div>
-            </div>
-        )
-    }
-});
+
 var Main = React.createClass({
     getInitialState: function() {
        // console.log(this.props.url);
@@ -185,7 +218,7 @@ var Main = React.createClass({
             type:'get',
             cache: false,
             success: function(value) {
-                console.log(value[0]);
+                //console.log(value[0]);
                 this.setState({data:{Data: value[0].Data,rightDate:value[0].rightDate}});
 
             }.bind(this),
