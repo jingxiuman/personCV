@@ -92,16 +92,19 @@ var Blog = React.createClass({
             }
         }
     },
+    handleClick: function () {
+        $("#blogContent").css('display','none');
+    },
     componentDidMount: function () {
         $.ajax({
             url:this.props.url,
             dataType:'json',
             type:'get',
+            cache:false,
             data:{
                 blog_id:this.props.blogId
             },
             success: function (data) {
-                console.log('yes');
                 this.setState({data:data})
             }.bind(this)
         })
@@ -110,7 +113,8 @@ var Blog = React.createClass({
         return (
             <div className="blog_main">
                 <div className="blog_header">
-                    <h1>{this.state.data.newsTitle}</h1>
+                    <div className="blog_cancel" onClick={this.handleClick}>X</div>
+                    <h1>{this.state.data.newsTitle}--{this.state.data.id}</h1>
                     <div className="blog_info">
                         浏览数：<span>{this.state.data.newsSee}</span>
                         作者：<span>{this.state.data.newsAuthor}</span>
@@ -118,8 +122,8 @@ var Blog = React.createClass({
                         创建时间：<span>{this.state.data.newsCreateTime}</span>
                         修改时间：<span>{this.state.data.newsChangeTime}</span></div>
                 </div>
-                <div className="blog_body">
-                    {this.state.data.newsContent}
+                <div className="blog_body" dangerouslySetInnerHTML={{__html:this.state.data.newsContent}}>
+
                 </div>
             </div>
         )
@@ -130,15 +134,15 @@ var RightItem = React.createClass({
     handleClick: function (event) {
         $("#blogContent").show();
         ReactDOM.render(
-            <Blog url='server/blog.json' blogId={this.props.data.id}/>,
+            <Blog url='server/blog.php' key={this.props.data.id} blogId={this.props.data.id}/>,
               document.getElementById("blogContent")
         )
     },
     render: function () {
         return (
             <div className="index_right_item" onClick={this.handleClick}>
-                <div className="index_right_strangle"></div>,
-                <div className="index_right_circle"></div>,
+                <div className="index_right_strangle">&nbsp;</div>,
+                <div className="index_right_circle">&nbsp;</div>,
                 <div className="index_right_pic">
                     <img src={this.props.data.newsPic} alt="" className="img"/>
                 </div>,
@@ -219,7 +223,7 @@ var Main = React.createClass({
             cache: false,
             success: function(value) {
                 //console.log(value[0]);
-                this.setState({data:{Data: value[0].Data,rightDate:value[0].rightDate}});
+                this.setState({data:{Data: value.Data,rightDate:value.rightDate}});
 
             }.bind(this),
             error: function(xhr, status, err) {
@@ -274,6 +278,6 @@ var data={
    }
 };
 ReactDOM.render(
-    <Main url="server/hello.json"  />,
+    <Main url="server/index.php"  />,
     document.getElementById("contain")
 );

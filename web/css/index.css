@@ -193,6 +193,22 @@ ul.index_share_list li a {
 }
 .blog_header {
   text-align: center;
+  position: relative;
+}
+.blog_cancel {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #F1EEEE;
+  border-radius: 4rem;
+  color: #000;
+  border: 1px solid #D6D4D4;
+  line-height: 2rem;
+  top: -1rem;
+  left: 0rem;
+}
+.blog_cancel:active {
+  background-color: #b3b3b3;
 }
 .blog_info {
   color: #A7A3A3;
@@ -247,6 +263,6 @@ ul.index_share_list li a {
   top: 0;
   bottom: 0;
   left: 25%;
-  background-color: rgba(4, 4, 4, 0.42);
+  background-color: rgba(4, 4, 4, 0.81);
   z-index: 5;
 }
