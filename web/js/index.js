@@ -141,8 +141,8 @@ var RightItem = React.createClass({
     render: function () {
         return (
             <div className="index_right_item" onClick={this.handleClick}>
-                <div className="index_right_strangle">&nbsp;</div>
-                <div className="index_right_circle">&nbsp;</div>
+                <div className="index_right_strangle"></div>
+                <div className="index_right_circle"></div>
                 <div className="index_right_pic">
                     <img src={this.props.data.newsPic} alt="" className="img"/>
                 </div>

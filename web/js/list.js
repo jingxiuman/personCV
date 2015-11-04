@@ -75,82 +75,21 @@ var LeftNavMain = React.createClass({
         )
     }
 });
-//博客内容组件
-var Blog = React.createClass({
-    getInitialState: function () {
-        return {
-            data: {
-                "id": '',
-                "newsPic": "",
-                "newsTitle": "",
-                "newsSee": "",
-                "newsCreateTime": "",
-                "newsAuthor": "",
-                "newsContent": "",
-                "newsChangeTime":'',
-                "newsComment":""
-            }
-        }
-    },
-    handleClick: function () {
-        $("#blogContent").css('display','none');
-    },
-    componentDidMount: function () {
-        $.ajax({
-            url:this.props.url,
-            dataType:'json',
-            type:'get',
-            cache:false,
-            data:{
-                blog_id:this.props.blogId
-            },
-            success: function (data) {
-                this.setState({data:data})
-            }.bind(this)
-        })
-    },
-    render: function () {
-        return (
-            <div className="blog_main">
-                <div className="blog_header">
-                    <div className="blog_cancel" onClick={this.handleClick}>X</div>
-                    <h1>{this.state.data.newsTitle}--{this.state.data.id}</h1>
-                    <div className="blog_info">
-                        浏览数：<span>{this.state.data.newsSee}</span>
-                        作者：<span>{this.state.data.newsAuthor}</span>
-                        评论数：<span>{this.state.data.newsComment}</span>
-                        创建时间：<span>{this.state.data.newsCreateTime}</span>
-                        修改时间：<span>{this.state.data.newsChangeTime}</span></div>
-                </div>
-                <div className="blog_body" dangerouslySetInnerHTML={{__html:this.state.data.newsContent}}>
-
-                </div>
-            </div>
-        )
-    }
-});
 //右部
 var RightItem = React.createClass({
-    handleClick: function (event) {
-        $("#blogContent").show();
-        ReactDOM.render(
-            <Blog url='server/blog.php' key={this.props.data.id} blogId={this.props.data.id}/>,
-              document.getElementById("blogContent")
-        )
-    },
     render: function () {
         return (
-            <div className="index_right_item" onClick={this.handleClick}>
-                <div className="index_right_strangle">&nbsp;</div>
-                <div className="index_right_circle">&nbsp;</div>
-                <div className="index_right_pic">
-                    <img src={this.props.data.newsPic} alt="" className="img"/>
-                </div>
-                <div className="index_right_content">
-                    <h2>{this.props.data.newsTitle}</h2>
-                    <div className="index_right_info">浏览数：{this.props.data.newsSee}  创建时间：{this.props.data.newsCreateTime} 发布作者：{this.props.data.newsAuthor}</div>
-                    <div className="index_right_main">
-                        {this.props.data.newsContent}
+            <div className="list_item">
+                <div className="list_pic"><img src={this.props.data.projectPic} alt="" className="img"/></div>
+                <div className="list_info">
+                    <h1>{this.props.data.projectTitle}</h1>
+                    <div className="list_info_item"> 作者：<span>{this.props.data.projectAuthor}</span> 发布时间：<span>{this.props.data.projectTime}</span></div>
+                    <div className="list_body">
+                        {this.props.data.projectContent}
+                    </div>
+                    <div className="list_address">
+                        <div className="list_address_item">项目地址：<a href={this.props.data.projectURL}>{this.props.data.projectURL}</a></div>
+                        <div className="list_address_item">项目地址：<a href={this.props.data.projectGITHUB}>{this.props.data.projectGITHUB}</a></div>
                     </div>
                 </div>
             </div>
@@ -159,18 +98,15 @@ var RightItem = React.createClass({
 });
 var RightMain = React.createClass({
     render: function () {
-        var itemNode = this.props.data.news.map(function (value) {
+        var itemNode = this.props.data.project.map(function (value) {
             return (
                 <RightItem data={value} key={value.id}/>
             )
         });
         return (
 
-            <div className="index_rightMain">
-                <div className="index_right_line"></div>
-                <div className="index_rightContent_main"  >
-                    {itemNode}
-                </div>
+            <div className="index_rightMain list_main">
+                {itemNode}
             </div>
         )
     }
@@ -199,15 +135,16 @@ var Main = React.createClass({
                     }
                 },
                 rightDate: {
-                    news: [
+                    project: [
                         {
-                            id: 1,
-                            newsPic: 'img/index.png',
-                            newsTitle: '我会想你的',
-                            newsSee: '000',
-                            newsCreateTime: '2015-12-23',
-                            newsAuthor: 'admin',
-                            newsContent: ''
+                            id:'',
+                            projectPic:'',
+                            projectTitle:'',
+                            projectAuthor:'',
+                            projectTime:'',
+                            projectContent:'',
+                            projectURL:'',
+                            projectGITHUB:''
                         }
                     ]
                 }
@@ -267,17 +204,21 @@ var data={
        }
    },
    rightDate:{
-       news:[
-           {id:1,newsPic:'img/index.png',newsTitle:'我会想你的',newsSee:'000',newsCreateTime:'2015-12-23',newsAuthor:'admin',newsContent:'在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，然用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，变量都不再是固定值，这样就更容易的实现了改变变量的目的。'},
-           {id:2,newsPic:'img/index.png',newsTitle:'我会想你的',newsSee:'000',newsCreateTime:'2015-12-23',newsAuthor:'admin',newsContent:'在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，然用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，变量都不再是固定值，这样就更容易的实现了改变变量的目的。'},
-           {id:3,newsPic:'img/index.png',newsTitle:'我会想你的',newsSee:'000',newsCreateTime:'2015-12-23',newsAuthor:'admin',newsContent:'在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，然用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，变量都不再是固定值，这样就更容易的实现了改变变量的目的。'},
-           {id:4,newsPic:'img/index.png',newsTitle:'我会想你的',newsSee:'000',newsCreateTime:'2015-12-23',newsAuthor:'admin',newsContent:'在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，然用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，变量都不再是固定值，这样就更容易的实现了改变变量的目的。'},
-           {id:5,newsPic:'img/index.png',newsTitle:'我会想你的',newsSee:'000',newsCreateTime:'2015-12-23',newsAuthor:'admin',newsContent:'在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，然用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，变量都不再是固定值，这样就更容易的实现了改变变量的目的。'},
-           {id:6,newsPic:'img/index.png',newsTitle:'我会想你的',newsSee:'000',newsCreateTime:'2015-12-23',newsAuthor:'admin',newsContent:'在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，然用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，变量都不再是固定值，这样就更容易的实现了改变变量的目的。'}
-       ]
+       project:[
+           {
+               id:'',
+               projectImg:'',
+               projectTitle:'',
+               projectAuthor:'',
+               projectTime:'',
+               projectContent:'',
+               projectURL:'',
+               projectGITHUB:''
+           }
+            ]
    }
 };
 ReactDOM.render(
-    <Main url="server/index.php"  />,
+    <Main url="server/list.php"  />,
     document.getElementById("contain")
 );
