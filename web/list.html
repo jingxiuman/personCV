@@ -5,105 +5,15 @@
 
     <title>个人博客的首页</title>
     <link rel="stylesheet" href="./css/index.css"/>
+
+    <script src="js/build/react.js"></script>
+    <script src="js/build/react-dom.js"></script>
+    <script src="//cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/babel-core/5.8.25/browser.min.js"></script>
+
+    <script src="js/list.js" type="text/babel"></script>
 </head>
 <body>
- <div class="container">
-
-     <div class="index_leftNav">
-         <div class="index_left_person">
-             <img src="img/index.png" class="img" alt=""/>
-         </div>
-         <div class="index_left_name">
-             笨笨时光机
-         </div>
-         <ul class="index_left_list">
-             <li><a href="#">首页</a></li>
-             <li><a href="#">最新博客</a></li>
-             <li><a href="#">项目列表</a></li>
-             <li><a href="#">个人简历</a></li>
-         </ul>
-         <div class="index_left_copyright">
-             <div class="index_left_share">
-                 <ul class="index_share_list">
-                     <li><a href="#">&#xe601;</a></li>
-                     <li><a href="#">&#xe600;</a></li>
-                     <li><a href="#">&#xe602;</a></li>
-                 </ul>
-             </div>
-             <div class="index_left_info">
-                 <span>版权所有：笨笨时光机</span>
-                 <span>备案号：鄂ICP备14002646-1</span>
-             </div>
-         </div>
-     </div>
-     <div class="index_rightMain list_main">
-        <div class="list_item">
-            <div class="list_pic"><img src="img/index.png" alt="" class="img"/></div>
-            <div class="list_info">
-                <h1>我只是想你</h1>
-                <div class="list_info_item">浏览数：<span>000</span>  作者：<span>admin</span> 评论数：<span>000</span></div>
-                <div class="list_body">
-                    在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，
-                    如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，
-                    然后用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，
-                    所有变量都不再是固定值，这样就更容易的实现了改变变量的目的。
-                </div>
-                <div class="list_address">
-                    <div class="list_address_item">项目地址：<a href="#">http://www.zhouxianbao.cn</a></div>
-                    <div class="list_address_item">项目地址：<a href="#">http://www.zhouxianbao.cn</a></div>
-                </div>
-            </div>
-        </div><div class="list_item">
-            <div class="list_pic"><img src="img/index.png" alt="" class="img"/></div>
-            <div class="list_info">
-                <h1>我只是想你</h1>
-                <div class="list_info_item">浏览数：<span>000</span>  作者：<span>admin</span> 评论数：<span>000</span></div>
-                <div class="list_body">
-                    在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，
-                    如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，
-                    然后用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，
-                    所有变量都不再是固定值，这样就更容易的实现了改变变量的目的。
-                </div>
-                <div class="list_address">
-                    <div class="list_address_item">项目地址：<a href="#">http://www.zhouxianbao.cn</a></div>
-                    <div class="list_address_item">项目地址：<a href="#">http://www.zhouxianbao.cn</a></div>
-                </div>
-            </div>
-        </div><div class="list_item">
-            <div class="list_pic"><img src="img/index.png" alt="" class="img"/></div>
-            <div class="list_info">
-                <h1>我只是想你</h1>
-                <div class="list_info_item">浏览数：<span>000</span>  作者：<span>admin</span> 评论数：<span>000</span></div>
-                <div class="list_body">
-                    在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，
-                    如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，
-                    然后用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，
-                    所有变量都不再是固定值，这样就更容易的实现了改变变量的目的。
-                </div>
-                <div class="list_address">
-                    <div class="list_address_item">项目地址：<a href="#">http://www.zhouxianbao.cn</a></div>
-                    <div class="list_address_item">项目地址：<a href="#">http://www.zhouxianbao.cn</a></div>
-                </div>
-            </div>
-        </div><div class="list_item">
-            <div class="list_pic"><img src="img/index.png" alt="" class="img"/></div>
-            <div class="list_info">
-                <h1>我只是想你</h1>
-                <div class="list_info_item">浏览数：<span>000</span>  作者：<span>admin</span> 评论数：<span>000</span></div>
-                <div class="list_body">
-                    在计算机程序或文本编辑中，硬编码是指将可变变量用一个固定值来代替的方法。用这种方法编译后，
-                    如果以后需要更改此变量就非常困难了。大部分程序语言里，可以将一个固定数值定义为一个标记，
-                    然后用这个特殊标记来取代变量名称。当标记名称改变时，变量名不变，这样，当重新编译整个程序时，
-                    所有变量都不再是固定值，这样就更容易的实现了改变变量的目的。
-                </div>
-                <div class="list_address">
-                    <div class="list_address_item">项目地址：<a href="#">http://www.zhouxianbao.cn</a></div>
-                    <div class="list_address_item">项目地址：<a href="#">http://www.zhouxianbao.cn</a></div>
-                </div>
-            </div>
-        </div>
-     </div>
-     <div class="index_bg"></div>
- </div>
+<div id="contain"></div>
 </body>
 </html>
