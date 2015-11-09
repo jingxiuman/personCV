@@ -17,6 +17,57 @@ $(window).on('resize', function () {
 });
 //界面组件
 
+
+//公共组件
+
+//输入框
+var Input_item = React.createClass({
+    /**
+     *  @param String label
+     *  @param String inputName
+     */
+    render: function () {
+        return (
+            <div className="form-group">
+                <label>{this.props.data.labelName}</label>
+                <input className="form-control" ref={this.props.data.inputName} placeholder={this.props.data.placeholder} />
+            </div>
+        )
+    }
+});
+//选择框
+var Select_item =  React.createClass({
+
+    render: function () {
+        var li_node = this.props.data.item.map(function (value,i) {
+            return(
+                <option key={i} value={value.value}>{value.name}</option>
+            )
+        });
+        return(
+            <div className="form-group">
+                <label>{this.props.data.label}</label>
+                <select className="form-control">
+                    {li_node}
+                </select>
+            </div>
+        )
+    }
+});
+//panel组件
+var Panel_item = React.createClass({
+
+    render: function () {
+        return (
+            <div className="panel panel-default">
+                <div className="panel-heading">Form Elements</div>
+                <div className="panel-body">
+
+                </div>
+                </div>
+        )
+    }
+});
 /*头部组件*/
 var Header_nav = React.createClass({
     render: function () {
@@ -62,19 +113,22 @@ var Left_search = React.createClass({
 /*左部导航*/
 var Left_nav = React.createClass({
     handleClick: function (e) {
-        var name = $(e.target).find(".leftMain_").html() || '';
-       var name_value = name.match(/[\u0391-\uFFE5]+/);
-        console.log(name_value+'---'+name);
+        var name = ReactDOM.findDOMNode(e.target);
+       // console.dir(name);
+        //var name = $(e.target).find(".leftMain_").html() || '';
+       var name_value = name.innerText.match(/[\u0391-\uFFE5]+/) ||'首页';
+       // console.log(name_value+'---'+name);
         switch (name_value[0]){
             case '博客管理':
+            case '博客列表':
                 ReactDOM.render(
                     <Blog_list/>,
                     document.getElementById("index_right")
                 );
                 break;
-            case '博客列表':
+            case '发布博客':
                 ReactDOM.render(
-                    <Blog_list/>,
+                    <Blog_public/>,
                     document.getElementById("index_right")
                 );
                 break;
@@ -100,7 +154,7 @@ var Left_nav = React.createClass({
             if(value.child.length == 0) {
 
                 return (
-                    <li key={value.id} ><a href={value.link}><span className={value.icon}/> <span className="leftMain_"  >{value.text}</span></a></li>
+                    <li key={value.id} ><a href={value.link}><span className={value.icon}/> <span ref="leftMain_"  >{value.text}</span></a></li>
                 )
             }else{
                 var li_node_child = value.child.map(function (value_child) {
@@ -108,7 +162,7 @@ var Left_nav = React.createClass({
                         <li key={value_child.id}>
                             <a  href={value_child.link}>
                                 <span className={value_child.icon}/>
-                                <span className="leftMain_">{value_child.text}</span>
+                                <span ref="leftMain_">{value_child.text}</span>
                             </a>
                         </li>
                     )
@@ -117,7 +171,7 @@ var Left_nav = React.createClass({
                 return (
                     <li key={value.id} className="parent">
                         <a href={value.link}>
-                            <span className={value.icon}/><span className="leftMain_"  > {value.text}</span>
+                            <span className={value.icon}/><span ref="leftMain_"  > {value.text}</span>
                             <span data-toggle="collapse" href={"#left-nav-"+value.id} className="icon pull-right">
                                 <em className="glyphicon glyphicon-s glyphicon-plus"/>
                             </span>
@@ -168,9 +222,7 @@ var data = [
     {id:6,link:'#',text:'首页',icon:'glyphicon glyphicon-dashboard',child:[]},
     {id:7,link:'#',text:'首页',icon:'glyphicon glyphicon-dashboard',child:[]}
 ];
-
 //博客列表
-
 var Blog_list = React.createClass({
     componentDidMount: function () {
         $("#table").bootstrapTable({
@@ -239,6 +291,33 @@ var Blog_list = React.createClass({
             </div>
         )
     }
+});
+
+//博客发布
+
+var Blog_public = React.createClass({
+        componentDidMount: function () {
+            var ue = UE.getEditor('container');
+        },
+        render: function () {
+            return (
+                <div className="panel panel-default">
+                    <div className="panel-heading"> 发布博客</div>
+                    <div className="panel-body">
+                        <div className="col-md-12">
+                            <form role="form">
+                                <Input_item data={{'labelName':'文章标题','inputName':'newsTile','placeholder':'输入文章标题'}}/>
+                                <Input_item data={{'labelName':'文章作者','inputName':'newsAuthor','placeholder':'输入文章作者'}}/>
+                                <Select_item data={{'label':'是否发布','item':[{'name':'发布','value':'1'},{'name':'不发布','value':'0'}]}}/>
+                                <script id="container" name="content" type="text/plain">
+                                    这里写你的初始化内容
+                                </script>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            )
+        }
 });
 //首页
 var Index_right_main = React.createClass({
