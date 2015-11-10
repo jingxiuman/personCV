@@ -19,7 +19,26 @@ $(window).on('resize', function () {
 
 
 //公共组件
-
+//cai
+var Data_item = React.createClass({
+    render: function () {
+        return (
+            <div className="col-xs-12 col-md-6 col-lg-3">
+                <div className="panel panel-red panel-widget">
+                    <div className="row no-padding">
+                        <div className="col-sm-3 col-lg-5 widget-left">
+                            <em className={this.props.data.icon}/>
+                        </div>
+                        <div className="col-sm-9 col-lg-7 widget-right">
+                            <div className="large">{this.props.data.num}</div>
+                            <div className="text-muted">{this.props.data.name}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+});
 //输入框
 var Input_item = React.createClass({
     /**
@@ -54,17 +73,22 @@ var Select_item =  React.createClass({
         )
     }
 });
-//panel组件
-var Panel_item = React.createClass({
+//编辑器
+var Edit_item = React.createClass({
+    getInitialState: function () {
+        var time = new Date();
 
+        return {data:'edit_'+time.getTime()}
+    },
+    componentDidMount: function () {
+      var ue =  UE.getEditor(this.state.data);
+        //this.state.ueData.ready(function () {
+        //    console.log("ready")
+        //})
+    },
     render: function () {
-        return (
-            <div className="panel panel-default">
-                <div className="panel-heading">Form Elements</div>
-                <div className="panel-body">
-
-                </div>
-                </div>
+        return(
+            <script id={this.state.data} name={this.props.data.content} type="text/plain" ></script>
         )
     }
 });
@@ -296,9 +320,6 @@ var Blog_list = React.createClass({
 //博客发布
 
 var Blog_public = React.createClass({
-        componentDidMount: function () {
-            var ue = UE.getEditor('container');
-        },
         render: function () {
             return (
                 <div className="panel panel-default">
@@ -309,9 +330,7 @@ var Blog_public = React.createClass({
                                 <Input_item data={{'labelName':'文章标题','inputName':'newsTile','placeholder':'输入文章标题'}}/>
                                 <Input_item data={{'labelName':'文章作者','inputName':'newsAuthor','placeholder':'输入文章作者'}}/>
                                 <Select_item data={{'label':'是否发布','item':[{'name':'发布','value':'1'},{'name':'不发布','value':'0'}]}}/>
-                                <script id="container" name="content" type="text/plain">
-                                    这里写你的初始化内容
-                                </script>
+                                <Edit_item  data={{'content':'newsContent'}} />
                             </form>
                         </div>
                     </div>
@@ -356,58 +375,10 @@ var Index_right_main = React.createClass({
                     </ol>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 col-md-6 col-lg-3">
-                        <div className="panel panel-blue panel-widget ">
-                            <div className="row no-padding">
-                                <div className="col-sm-3 col-lg-5 widget-left">
-                                    <em className="glyphicon glyphicon-shopping-cart glyphicon-l"></em>
-                                </div>
-                                <div className="col-sm-9 col-lg-7 widget-right">
-                                    <div className="large">{this.state.data.numBlog}</div>
-                                    <div className="text-muted">博客数</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xs-12 col-md-6 col-lg-3">
-                        <div className="panel panel-orange panel-widget">
-                            <div className="row no-padding">
-                                <div className="col-sm-3 col-lg-5 widget-left">
-                                    <em className="glyphicon glyphicon-comment glyphicon-l"></em>
-                                </div>
-                                <div className="col-sm-9 col-lg-7 widget-right">
-                                    <div className="large">{this.state.data.numProject}</div>
-                                    <div className="text-muted">项目数目</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xs-12 col-md-6 col-lg-3">
-                        <div className="panel panel-teal panel-widget">
-                            <div className="row no-padding">
-                                <div className="col-sm-3 col-lg-5 widget-left">
-                                    <em className="glyphicon glyphicon-user glyphicon-l"></em>
-                                </div>
-                                <div className="col-sm-9 col-lg-7 widget-right">
-                                    <div className="large">{this.state.data.numUser}</div>
-                                    <div className="text-muted">管理人数</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xs-12 col-md-6 col-lg-3">
-                        <div className="panel panel-red panel-widget">
-                            <div className="row no-padding">
-                                <div className="col-sm-3 col-lg-5 widget-left">
-                                    <em className="glyphicon glyphicon-stats glyphicon-l"></em>
-                                </div>
-                                <div className="col-sm-9 col-lg-7 widget-right">
-                                    <div className="large">{this.state.data.numSee}</div>
-                                    <div className="text-muted">访问数据</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <Data_item data={{num:this.state.data.numBlog,name:'博客数',icon:'glyphicon glyphicon-shopping-cart glyphicon-l'}} />
+                    <Data_item data={{num:this.state.data.numProject,name:'项目数目',icon:'glyphicon glyphicon-comment glyphicon-l'}} />
+                    <Data_item data={{num:this.state.data.numUser,name:'管理人数',icon:'glyphicon glyphicon-user glyphicon-l'}} />
+                    <Data_item data={{num:this.state.data.numSee,name:'访问数据',icon:'glyphicon glyphicon-stats glyphicon-l'}} />
                 </div>
             </div>
 
