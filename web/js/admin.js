@@ -45,18 +45,35 @@ var Input_item = React.createClass({
      *  @param String label
      *  @param String inputName
      */
+    handleChange: function (e) {
+        e.preventDefault();
+       // console.log(e.target.value);
+        if(!e.target.value.trim()){
+            $(e.target).parent().addClass('has-error')
+        }else{
+            $(e.target).parent().removeClass('has-error')
+        }
+    },
     render: function () {
         return (
             <div className="form-group">
                 <label>{this.props.data.labelName}</label>
-                <input className="form-control" ref={this.props.data.inputName} placeholder={this.props.data.placeholder} />
+                <input className="form-control" name={this.props.data.inputName} onChange={this.handleChange} placeholder={this.props.data.placeholder} />
             </div>
         )
     }
 });
 //选择框
 var Select_item =  React.createClass({
-
+    handleChange: function (e) {
+        e.preventDefault();
+        // console.log(e.target.value);
+        if(!e.target.value.trim()){
+            $(e.target).parent().addClass('has-error')
+        }else{
+            $(e.target).parent().removeClass('has-error')
+        }
+    },
     render: function () {
         var li_node = this.props.data.item.map(function (value,i) {
             return(
@@ -66,7 +83,7 @@ var Select_item =  React.createClass({
         return(
             <div className="form-group">
                 <label>{this.props.data.label}</label>
-                <select className="form-control">
+                <select className="form-control" onchange={this.handleChange} name={this.props.data.inputName}>
                     {li_node}
                 </select>
             </div>
@@ -86,12 +103,14 @@ var Edit_item = React.createClass({
         //    console.log("ready")
         //})
     },
+
     render: function () {
         return(
             <script id={this.state.data} name={this.props.data.content} type="text/plain" ></script>
         )
     }
 });
+
 /*头部组件*/
 var Header_nav = React.createClass({
     render: function () {
@@ -152,7 +171,7 @@ var Left_nav = React.createClass({
                 break;
             case '发布博客':
                 ReactDOM.render(
-                    <Blog_public/>,
+                    <Blog_public url="../server/api.php"/>,
                     document.getElementById("index_right")
                 );
                 break;
@@ -320,23 +339,71 @@ var Blog_list = React.createClass({
 //博客发布
 
 var Blog_public = React.createClass({
-        render: function () {
-            return (
-                <div className="panel panel-default">
-                    <div className="panel-heading"> 发布博客</div>
-                    <div className="panel-body">
-                        <div className="col-md-12">
-                            <form role="form">
-                                <Input_item data={{'labelName':'文章标题','inputName':'newsTile','placeholder':'输入文章标题'}}/>
-                                <Input_item data={{'labelName':'文章作者','inputName':'newsAuthor','placeholder':'输入文章作者'}}/>
-                                <Select_item data={{'label':'是否发布','item':[{'name':'发布','value':'1'},{'name':'不发布','value':'0'}]}}/>
-                                <Edit_item  data={{'content':'newsContent'}} />
-                            </form>
+    getInitialState: function () {
+        return{data:{"show":0,'msg':''}}
+    },
+    handleSubmit: function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+
+        //console.dir(e.target);
+        var dataMain = $(e.target);
+        var newsTitle = dataMain.find("input[name='newsTitle']").val();
+        var newsAuthor = dataMain.find("input[name='newsAuthor']").val();
+        var newsShow = dataMain.find("select[name='newsShow']").val();
+        var newsContent = dataMain.find("textarea[name='newsContent']").val();
+       // console.log(dataMain,newsTitle,newsAuthor,newsShow,newsContent)
+        var data={
+            'type':'add_blog',
+            'newsTitle':newsTitle,
+            'newsAuthor':newsAuthor,
+            'newsShow':newsShow,
+            newsContent:newsContent
+        };
+        this.ajaxFunc(data)
+    },
+    ajaxFunc: function (value) {
+        $.ajax({
+            url:this.props.url,
+            data:value,
+            dataType:'json',
+            type:'post',
+            success: function (data) {
+                if(data){
+                    this.setState({data:{"show":'1',"msg":' 保存成功'}})
+                }else{
+                    this.setState({data:{"show":'1',"msg":' 保存失败'}})
+                }
+            }.bind(this)
+        })
+
+    },
+
+    render: function () {
+        return (
+            <div className="panel panel-default">
+                <div className="panel-heading"> 发布博客</div>
+                <div className="panel-body">
+                    <div className="col-md-12">
+                        <div className={this.state.data.show?'show':'hidden' }>
+                            <div className="alert bg-danger "  role="alert">
+                                <span className="glyphicon glyphicon-exclamation-sign"/> {this.state.data.msg} <a href="#" className="pull-right"><span className="glyphicon glyphicon-remove"/></a>
+                            </div>
                         </div>
+
+
+                        <form role="form" onSubmit={this.handleSubmit}>
+                            <Input_item data={{'labelName':'文章标题','inputName':'newsTitle','placeholder':'输入文章标题'}}/>
+                            <Input_item data={{'labelName':'文章作者','inputName':'newsAuthor','placeholder':'输入文章作者'}}/>
+                            <Select_item data={{'label':'是否发布','inputName':'newsShow','item':[{'name':'发布','value':'1'},{'name':'不发布','value':'0'}]}}/>
+                            <Edit_item  data={{'content':'newsContent'}} />
+                            <button type="submit" className="btn btn-primary">提交</button>
+                        </form>
                     </div>
                 </div>
-            )
-        }
+            </div>
+        )
+    }
 });
 //首页
 var Index_right_main = React.createClass({
@@ -370,7 +437,7 @@ var Index_right_main = React.createClass({
             <div>
                 <div className="row">
                     <ol className="breadcrumb">
-                        <li><a href="#"><span className="glyphicon glyphicon-home"></span></a></li>
+                        <li><a href="#"><span className="glyphicon glyphicon-home"/></a></li>
                         <li className="active">首页</li>
                     </ol>
                 </div>

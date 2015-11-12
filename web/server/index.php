@@ -42,7 +42,7 @@ while($row_share = mysqli_fetch_array($re_share))
 }
 
 //新闻数据
-$sql_news = "select * from blog_news where news_show=1 order by id asc limit 20 ";
+$sql_news = "select * from blog_news where news_show=1 order by id desc limit 20 ";
 $re_news=  mysqli_query($conn, $sql_news);
 $news_data = [];
 while($row_news = mysqli_fetch_array($re_news))
@@ -50,7 +50,7 @@ while($row_news = mysqli_fetch_array($re_news))
     $news_content = mb_strlen($row_news['news_content'])>300?$row_news['news_content']."...":$row_news['news_content'];
     $news_data[] = array(
         "id" => $row_news['id'],
-        "newsPic" => $row_news['news_pic'],
+        "newsPic" => $row_news['news_pic']?$row_news['news_pic']:"img/index.png",
         "newsTitle"=> $row_news['news_title'],
         "newsSee"=> $row_news['newsSee'],
         "newsCreateTime"=> $row_news['news_createTime'],

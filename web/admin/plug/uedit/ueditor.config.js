@@ -53,8 +53,8 @@
 
         //语言配置项,默认是zh-cn。有需要的话也可以使用如下这样的方式来自动多语言切换，当然，前提条件是lang文件夹下存在对应的语言文件：
         //lang值也可以通过自动获取 (navigator.language||navigator.browserLanguage ||navigator.userLanguage).toLowerCase()
-        //,lang:"zh-cn"
-        //,langPath:URL +"lang/"
+        ,lang:"zh-cn"
+        ,langPath:URL +"lang/"
 
         //主题配置项,默认是default。有需要的话也可以使用如下这样的方式来自动多主题切换，当然，前提条件是themes文件夹下存在对应的主题文件：
         //现有如下皮肤:default
@@ -64,7 +64,7 @@
         //,zIndex : 900     //编辑器层级的基数,默认是900
 
         //针对getAllHtml方法，会在对应的head标签中增加该编码设置。
-        //,charset:"utf-8"
+        ,charset:"utf-8"
 
         //若实例化编辑器的页面手动修改的domain，此处需要设置为true
         //,customDomain:false
@@ -97,7 +97,7 @@
         //,autoClearEmptyNode : true //getContent时，是否删除空的inlineElement节点（包括嵌套的情况）
 
         //启用自动保存
-        //,enableAutoSave: true
+        ,enableAutoSave: true
         //自动保存间隔时间， 单位ms
         //,saveInterval: 500
 
@@ -144,31 +144,31 @@
 
         //insertorderedlist
         //有序列表的下拉配置,值留空时支持多语言自动识别，若配置值，则以此值为准
-        //,'insertorderedlist':{
-        //      //自定的样式
-        //        'num':'1,2,3...',
-        //        'num1':'1),2),3)...',
-        //        'num2':'(1),(2),(3)...',
-        //        'cn':'一,二,三....',
-        //        'cn1':'一),二),三)....',
-        //        'cn2':'(一),(二),(三)....',
-        //     //系统自带
-        //     'decimal' : '' ,         //'1,2,3...'
-        //     'lower-alpha' : '' ,    // 'a,b,c...'
-        //     'lower-roman' : '' ,    //'i,ii,iii...'
-        //     'upper-alpha' : '' , lang   //'A,B,C'
-        //     'upper-roman' : ''      //'I,II,III...'
-        //}
+        ,'insertorderedlist':{
+              //自定的样式
+                'num':'1,2,3...',
+                'num1':'1),2),3)...',
+                'num2':'(1),(2),(3)...',
+                'cn':'一,二,三....',
+                'cn1':'一),二),三)....',
+                'cn2':'(一),(二),(三)....',
+             //系统自带
+             'decimal' : '' ,         //'1,2,3...'
+             'lower-alpha' : '' ,    // 'a,b,c...'
+             'lower-roman' : '' ,    //'i,ii,iii...'
+             'upper-alpha' : '' , //lang   //'A,B,C'
+             'upper-roman' : ''      //'I,II,III...'
+        }
 
         //insertunorderedlist
         //无序列表的下拉配置，值留空时支持多语言自动识别，若配置值，则以此值为准
-        //,insertunorderedlist : { //自定的样式
-        //    'dash' :'— 破折号', //-破折号
-        //    'dot':' 。 小圆圈', //系统自带
-        //    'circle' : '',  // '○ 小圆圈'
-        //    'disc' : '',    // '● 小圆点'
-        //    'square' : ''   //'■ 小方块'
-        //}
+        ,insertunorderedlist : { //自定的样式
+            'dash' :'— 破折号', //-破折号
+            'dot':' 。 小圆圈', //系统自带
+            'circle' : '',  // '○ 小圆圈'
+            'disc' : '',    // '● 小圆点'
+            'square' : ''   //'■ 小方块'
+        }
         //,listDefaultPaddingLeft : '30'//默认的左边缩进的基数倍
         //,listiconpath : 'http://bs.baidu.com/listicon/'//自定义标号的路径
         //,maxListLevel : 3 //限制可以tab的级数, 设置-1为不限制
@@ -177,19 +177,19 @@
 
         //fontfamily
         //字体设置 label留空支持多语言自动切换，若配置，则以配置值为准
-        //,'fontfamily':[
-        //    { label:'',name:'songti',val:'宋体,SimSun'},
-        //    { label:'',name:'kaiti',val:'楷体,楷体_GB2312, SimKai'},
-        //    { label:'',name:'yahei',val:'微软雅黑,Microsoft YaHei'},
-        //    { label:'',name:'heiti',val:'黑体, SimHei'},
-        //    { label:'',name:'lishu',val:'隶书, SimLi'},
-        //    { label:'',name:'andaleMono',val:'andale mono'},
-        //    { label:'',name:'arial',val:'arial, helvetica,sans-serif'},
-        //    { label:'',name:'arialBlack',val:'arial black,avant garde'},
-        //    { label:'',name:'comicSansMs',val:'comic sans ms'},
-        //    { label:'',name:'impact',val:'impact,chicago'},
-        //    { label:'',name:'timesNewRoman',val:'times new roman'}
-        //]
+        ,'fontfamily':[
+            { label:'',name:'songti',val:'宋体,SimSun'},
+            { label:'',name:'kaiti',val:'楷体,楷体_GB2312, SimKai'},
+            { label:'',name:'yahei',val:'微软雅黑,Microsoft YaHei'},
+            { label:'',name:'heiti',val:'黑体, SimHei'},
+            { label:'',name:'lishu',val:'隶书, SimLi'},
+            { label:'',name:'andaleMono',val:'andale mono'},
+            { label:'',name:'arial',val:'arial, helvetica,sans-serif'},
+            { label:'',name:'arialBlack',val:'arial black,avant garde'},
+            { label:'',name:'comicSansMs',val:'comic sans ms'},
+            { label:'',name:'impact',val:'impact,chicago'},
+            { label:'',name:'timesNewRoman',val:'times new roman'}
+        ]
 
         //fontsize
         //字号

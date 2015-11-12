@@ -19,6 +19,9 @@ switch($type){
     case 'admin_blog':
         admin_blog($conn);
         break;
+    case 'add_blog':
+        add_blog();
+        break;
     default:
         echo "似乎你正在用不一样的方法看源代码呢!";
 }
@@ -70,4 +73,27 @@ function admin_blog($conn){
         );
     }
     echo urldecode(json_encode($data));
+}
+/*
+ * 添加博客
+ */
+function add_blog(){
+    global $conn;
+
+    $newsTitle =  strip_tags($_POST['newsTitle']);
+    $newsAuthor = strip_tags($_POST['newsAuthor']);
+    $newsShow = strip_tags($_POST['newsShow']);
+    $newsContent = $_POST['newsContent'];
+
+
+     preg_match('/<img.+src="([^"]*?)".+>/i',$newsContent,$match);
+    $sql ="insert into blog_news( news_pic, news_title,  news_createTime, news_changeTime, news_author, news_content, news_show)
+VALUES('$match[1]','$newsTitle', NOW(),NOW(),'$newsAuthor','$newsContent','$newsShow') ";
+    $re = mysqli_query($conn, $sql);
+    if($re){
+        echo 1;
+    }else{
+       echo 0;
+    }
+
 }

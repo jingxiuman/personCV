@@ -8,7 +8,7 @@
 include "Uploader.class.php";
 
 /* 上传配置 */
-$base64 = "upload";
+$base64 = "uploads";
 switch (htmlspecialchars($_GET['action'])) {
     case 'uploadimage':
         $config = array(

@@ -2,9 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e966fd0-1cb9-4f41-8d79-3ae416efddd6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap-table.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/datepicker.css" afterPath="$PROJECT_DIR$/web/admin/css/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/datepicker3.css" afterPath="$PROJECT_DIR$/web/admin/css/datepicker3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/styles.css" afterPath="$PROJECT_DIR$/web/admin/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/index.html" afterPath="$PROJECT_DIR$/web/admin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/web/admin/js/bootstrap-datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/web/admin/js/bootstrap-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/admin/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/admin/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/chart-data.js" afterPath="$PROJECT_DIR$/web/admin/js/chart-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/chart.min.js" afterPath="$PROJECT_DIR$/web/admin/js/chart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/easypiechart-data.js" afterPath="$PROJECT_DIR$/web/admin/js/easypiechart-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/easypiechart.js" afterPath="$PROJECT_DIR$/web/admin/js/easypiechart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/web/admin/js/html5shiv.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/web/admin/js/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/respond.min.js" afterPath="$PROJECT_DIR$/web/admin/js/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/video.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/en.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/zh-cn.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/Uploader.class.php" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/Uploader.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/action_upload.php" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/action_upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/config.json" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.custom.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.custom.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.flashonly.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.flashonly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.flashonly.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.html5only.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.html5only.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.html5only.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.html5only.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.withoutimage.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.withoutimage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.all.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.all.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.all.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.config.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/tables/data1.json" afterPath="$PROJECT_DIR$/web/admin/tables/data1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/tables/data2.json" afterPath="$PROJECT_DIR$/web/admin/tables/data2.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin.js" afterPath="$PROJECT_DIR$/web/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/api.php" afterPath="$PROJECT_DIR$/web/server/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/index.php" afterPath="$PROJECT_DIR$/web/server/index.php" />
     </list>
     <ignored path="personCV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,20 +84,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - personBlog@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="blog_news" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -57,15 +91,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4114713">
-              <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="397" column="151" selection-start-line="397" selection-start-column="151" selection-end-line="397" selection-end-column="151" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
                 <element signature="e#60#268#0" expanded="false" />
-                <element signature="e#131#195#0" expanded="false" />
                 <element signature="e#321#397#0" expanded="false" />
                 <element signature="e#435#512#0" expanded="false" />
                 <element signature="e#524#530#0" expanded="false" />
@@ -76,30 +109,7 @@
                 <element signature="e#757#1254#0" expanded="false" />
                 <element signature="e#814#959#0" expanded="false" />
                 <element signature="e#984#1227#0" expanded="false" />
-                <element signature="e#1364#1435#0" expanded="false" />
-                <element signature="e#1460#1738#0" expanded="false" />
-                <element signature="e#1491#1722#0" expanded="false" />
-                <element signature="e#1786#2257#0" expanded="false" />
-                <element signature="e#1813#2255#0" expanded="false" />
-                <element signature="e#1881#2000#0" expanded="false" />
-                <element signature="e#2031#2239#0" expanded="false" />
-                <element signature="e#2131#2220#0" expanded="false" />
-                <element signature="e#4318#4326#0" expanded="false" />
-                <element signature="e#4635#4643#0" expanded="false" />
-                <element signature="e#4769#4790#0" expanded="false" />
-                <element signature="e#7612#7620#0" expanded="false" />
-                <element signature="e#7803#7811#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FE/admin/forms.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.75">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,19 +117,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.791666">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/server/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-37.592594">
-              <caret line="124" column="66" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="66" />
-              <folding />
+            <state vertical-scroll-proportion="0.6336761">
+              <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+              <folding>
+                <marker date="1447314185000" expanded="true" signature="541:565" placeholder="select id fr..blog_news..." />
+                <marker date="1447314185000" expanded="true" signature="679:706" placeholder="select id fr..blog_project..." />
+                <marker date="1447314185000" expanded="true" signature="830:853" placeholder="select id fr..blog_log..." />
+                <marker date="1447314185000" expanded="true" signature="962:987" placeholder="select id fr..blog_admin..." />
+                <marker date="1447314185000" expanded="true" signature="1335:1358" placeholder="select * fro..blog_news..." />
+                <marker date="1447314185000" expanded="true" signature="2202:2328" placeholder="insert into blog_news..." />
+                <marker date="1447314185000" expanded="true" signature="2202:2406" placeholder="insert into blog_news..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,12 +167,17 @@
         <option value="$PROJECT_DIR$/web/admin.html" />
         <option value="$PROJECT_DIR$/FE/admin.html" />
         <option value="$PROJECT_DIR$/web/admin/css/styles.css" />
-        <option value="$PROJECT_DIR$/web/server/api.php" />
         <option value="$PROJECT_DIR$/FE/admin/index.html" />
         <option value="$PROJECT_DIR$/FE/admin/forms.html" />
+        <option value="$PROJECT_DIR$/web/test.html" />
+        <option value="$PROJECT_DIR$/web/nihao.php" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/server/index.php" />
+        <option value="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.config.js" />
         <option value="$PROJECT_DIR$/web/admin/plug/uedit/php/config.json" />
-        <option value="$PROJECT_DIR$/web/admin/index.html" />
         <option value="$PROJECT_DIR$/web/js/admin.js" />
+        <option value="$PROJECT_DIR$/web/admin/index.html" />
+        <option value="$PROJECT_DIR$/web/server/api.php" />
       </list>
     </option>
   </component>
@@ -163,7 +186,10 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
@@ -244,7 +270,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
+            <PATH_ELEMENT USER_OBJECT="server">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -276,21 +302,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="FE">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="personcv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="FE">
+            <PATH_ELEMENT USER_OBJECT="web">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -298,14 +310,18 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="plug">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
         <subPane subId="Tests" />
       </pane>
-      <pane id="Scratches">
+      <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="ProjectPane">
+      <pane id="Scratches">
         <subPane />
       </pane>
     </panes>
@@ -323,15 +339,104 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/admin/plug/fileUpload" />
+      <recent name="$PROJECT_DIR$/web/server" />
       <recent name="$PROJECT_DIR$/web/admin/plug" />
       <recent name="$PROJECT_DIR$/web/admin" />
       <recent name="$PROJECT_DIR$/FE/admin" />
-      <recent name="$PROJECT_DIR$/web/js" />
     </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://react.t.ithbut.com" />
+          <option name="urlPath" value="/server/api.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="add_blog" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newsTitle" />
+                <option name="value" value="nihao" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newsAuthor" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newsShow" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newsContent" />
+                <option name="value" value="nihao" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://react.t.ithbut.com" />
+          <option name="urlPath" value="/server/api.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="type" />
+                <option name="value" value="admin_blog" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newsTitle" />
+                <option name="value" value="nihao" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newsAuthor" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newsShow" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="newsContent" />
+                <option name="value" value="nihao" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://react.t.ithbut.com" />
@@ -392,26 +497,18 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -426,18 +523,6 @@
       <command value="run-script" />
       <scripts />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -488,33 +573,48 @@
       <option name="project" value="LOCAL" />
       <updated>1447064054363</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix uedit and reactjs">
+      <created>1447139542845</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1447139542845</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21353066" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23104435" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11731044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11731044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -526,7 +626,8 @@
     <MESSAGE value="ADD blog data" />
     <MESSAGE value="get blog data from server api" />
     <MESSAGE value="add uedit" />
-    <option name="LAST_COMMIT_MESSAGE" value="add uedit" />
+    <MESSAGE value="fix uedit and reactjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix uedit and reactjs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,75 +636,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/admin.js">
+    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="185" column="34" selection-start-line="185" selection-start-column="34" selection-end-line="185" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-            <element signature="e#60#268#0" expanded="false" />
-            <element signature="e#131#195#0" expanded="false" />
-            <element signature="e#321#397#0" expanded="false" />
-            <element signature="e#435#512#0" expanded="false" />
-            <element signature="e#524#530#0" expanded="false" />
-            <element signature="e#571#1314#0" expanded="false" />
-            <element signature="e#597#1312#0" expanded="false" />
-            <element signature="e#628#1296#0" expanded="false" />
-            <element signature="e#690#1277#0" expanded="false" />
-            <element signature="e#757#1254#0" expanded="false" />
-            <element signature="e#814#959#0" expanded="false" />
-            <element signature="e#984#1227#0" expanded="false" />
-            <element signature="e#1364#1435#0" expanded="false" />
-            <element signature="e#1460#1738#0" expanded="false" />
-            <element signature="e#1491#1722#0" expanded="false" />
-            <element signature="e#1786#2257#0" expanded="false" />
-            <element signature="e#1813#2255#0" expanded="false" />
-            <element signature="e#1881#2000#0" expanded="false" />
-            <element signature="e#2031#2239#0" expanded="false" />
-            <element signature="e#2131#2220#0" expanded="false" />
-            <element signature="e#4318#4326#0" expanded="false" />
-            <element signature="e#4635#4643#0" expanded="false" />
-            <element signature="e#4769#4790#0" expanded="false" />
-            <element signature="e#7612#7620#0" expanded="false" />
-            <element signature="e#7803#7811#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/tables/data1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/tables/data2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <marker date="1446993768000" expanded="true" signature="485:509" placeholder="select id fr..blog_news..." />
-            <marker date="1446993768000" expanded="true" signature="623:650" placeholder="select id fr..blog_project..." />
-            <marker date="1446993768000" expanded="true" signature="774:797" placeholder="select id fr..blog_log..." />
-            <marker date="1446993768000" expanded="true" signature="906:931" placeholder="select id fr..blog_admin..." />
-            <marker date="1446993768000" expanded="true" signature="1279:1302" placeholder="select * fro..blog_news..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="216" column="21" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="21" />
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -612,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +665,6 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#60#268#0" expanded="false" />
-            <element signature="e#131#195#0" expanded="false" />
             <element signature="e#321#397#0" expanded="false" />
             <element signature="e#435#512#0" expanded="false" />
             <element signature="e#524#530#0" expanded="false" />
@@ -644,19 +675,6 @@
             <element signature="e#757#1254#0" expanded="false" />
             <element signature="e#814#959#0" expanded="false" />
             <element signature="e#984#1227#0" expanded="false" />
-            <element signature="e#1364#1435#0" expanded="false" />
-            <element signature="e#1460#1738#0" expanded="false" />
-            <element signature="e#1491#1722#0" expanded="false" />
-            <element signature="e#1786#2257#0" expanded="false" />
-            <element signature="e#1813#2255#0" expanded="false" />
-            <element signature="e#1881#2000#0" expanded="false" />
-            <element signature="e#2031#2239#0" expanded="false" />
-            <element signature="e#2131#2220#0" expanded="false" />
-            <element signature="e#4318#4326#0" expanded="false" />
-            <element signature="e#4635#4643#0" expanded="false" />
-            <element signature="e#4769#4790#0" expanded="false" />
-            <element signature="e#7612#7620#0" expanded="false" />
-            <element signature="e#7803#7811#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="216" column="21" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,9 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +707,6 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#60#268#0" expanded="false" />
-            <element signature="e#131#195#0" expanded="false" />
             <element signature="e#321#397#0" expanded="false" />
             <element signature="e#435#512#0" expanded="false" />
             <element signature="e#524#530#0" expanded="false" />
@@ -705,19 +717,6 @@
             <element signature="e#757#1254#0" expanded="false" />
             <element signature="e#814#959#0" expanded="false" />
             <element signature="e#984#1227#0" expanded="false" />
-            <element signature="e#1364#1435#0" expanded="false" />
-            <element signature="e#1460#1738#0" expanded="false" />
-            <element signature="e#1491#1722#0" expanded="false" />
-            <element signature="e#1786#2257#0" expanded="false" />
-            <element signature="e#1813#2255#0" expanded="false" />
-            <element signature="e#1881#2000#0" expanded="false" />
-            <element signature="e#2031#2239#0" expanded="false" />
-            <element signature="e#2131#2220#0" expanded="false" />
-            <element signature="e#4318#4326#0" expanded="false" />
-            <element signature="e#4635#4643#0" expanded="false" />
-            <element signature="e#4769#4790#0" expanded="false" />
-            <element signature="e#7612#7620#0" expanded="false" />
-            <element signature="e#7803#7811#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -733,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="156" column="28" selection-start-line="119" selection-start-column="8" selection-end-line="156" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +749,6 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#60#268#0" expanded="false" />
-            <element signature="e#131#195#0" expanded="false" />
             <element signature="e#321#397#0" expanded="false" />
             <element signature="e#435#512#0" expanded="false" />
             <element signature="e#524#530#0" expanded="false" />
@@ -763,19 +759,6 @@
             <element signature="e#757#1254#0" expanded="false" />
             <element signature="e#814#959#0" expanded="false" />
             <element signature="e#984#1227#0" expanded="false" />
-            <element signature="e#1364#1435#0" expanded="false" />
-            <element signature="e#1460#1738#0" expanded="false" />
-            <element signature="e#1491#1722#0" expanded="false" />
-            <element signature="e#1786#2257#0" expanded="false" />
-            <element signature="e#1813#2255#0" expanded="false" />
-            <element signature="e#1881#2000#0" expanded="false" />
-            <element signature="e#2031#2239#0" expanded="false" />
-            <element signature="e#2131#2220#0" expanded="false" />
-            <element signature="e#4318#4326#0" expanded="false" />
-            <element signature="e#4635#4643#0" expanded="false" />
-            <element signature="e#4769#4790#0" expanded="false" />
-            <element signature="e#7612#7620#0" expanded="false" />
-            <element signature="e#7803#7811#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -784,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,9 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
-          <folding>
-            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3856041">
-          <caret line="20" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/server/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24807198">
@@ -897,33 +868,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FE/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7827715">
           <caret line="421" column="0" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FE/admin/panels.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6554307">
-          <caret line="307" column="32" selection-start-line="307" selection-start-column="32" selection-end-line="307" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,23 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30075186">
           <caret line="1" column="2156" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5405405">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <marker date="1446993768000" expanded="true" signature="485:509" placeholder="select id fr..blog_news..." />
-            <marker date="1446993768000" expanded="true" signature="623:650" placeholder="select id fr..blog_project..." />
-            <marker date="1446993768000" expanded="true" signature="774:797" placeholder="select id fr..blog_log..." />
-            <marker date="1446993768000" expanded="true" signature="906:931" placeholder="select id fr..blog_admin..." />
-            <marker date="1446993768000" expanded="true" signature="1279:1302" placeholder="select * fro..blog_news..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -978,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,15 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/plug/uedit/php/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,42 +928,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+    <entry file="file://$PROJECT_DIR$/web/admin/plug/uedit/dialogs/preview/preview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-37.592594">
-          <caret line="124" column="66" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="66" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
+    <entry file="file://$PROJECT_DIR$/FE/admin/panels.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.791666">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.01923077">
+          <caret line="114" column="22" selection-start-line="112" selection-start-column="16" selection-end-line="114" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FE/admin/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.75">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="66" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40384614">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/plug/uedit/ueditor.parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6567163">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/plug/uedit/php/Uploader.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/plug/uedit/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4738806">
+          <caret line="191" column="9" selection-start-line="179" selection-start-column="7" selection-end-line="191" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/plug/uedit/php/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FE/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/plug/uedit/php/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.375">
+          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4114713">
-          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="397" column="151" selection-start-line="397" selection-start-column="151" selection-end-line="397" selection-end-column="151" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#60#268#0" expanded="false" />
-            <element signature="e#131#195#0" expanded="false" />
             <element signature="e#321#397#0" expanded="false" />
             <element signature="e#435#512#0" expanded="false" />
             <element signature="e#524#530#0" expanded="false" />
@@ -1058,19 +1032,30 @@
             <element signature="e#757#1254#0" expanded="false" />
             <element signature="e#814#959#0" expanded="false" />
             <element signature="e#984#1227#0" expanded="false" />
-            <element signature="e#1364#1435#0" expanded="false" />
-            <element signature="e#1460#1738#0" expanded="false" />
-            <element signature="e#1491#1722#0" expanded="false" />
-            <element signature="e#1786#2257#0" expanded="false" />
-            <element signature="e#1813#2255#0" expanded="false" />
-            <element signature="e#1881#2000#0" expanded="false" />
-            <element signature="e#2031#2239#0" expanded="false" />
-            <element signature="e#2131#2220#0" expanded="false" />
-            <element signature="e#4318#4326#0" expanded="false" />
-            <element signature="e#4635#4643#0" expanded="false" />
-            <element signature="e#4769#4790#0" expanded="false" />
-            <element signature="e#7612#7620#0" expanded="false" />
-            <element signature="e#7803#7811#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6336761">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+          <folding>
+            <marker date="1447314185000" expanded="true" signature="541:565" placeholder="select id fr..blog_news..." />
+            <marker date="1447314185000" expanded="true" signature="679:706" placeholder="select id fr..blog_project..." />
+            <marker date="1447314185000" expanded="true" signature="830:853" placeholder="select id fr..blog_log..." />
+            <marker date="1447314185000" expanded="true" signature="962:987" placeholder="select id fr..blog_admin..." />
+            <marker date="1447314185000" expanded="true" signature="1335:1358" placeholder="select * fro..blog_news..." />
+            <marker date="1447314185000" expanded="true" signature="2202:2328" placeholder="insert into blog_news..." />
+            <marker date="1447314185000" expanded="true" signature="2202:2406" placeholder="insert into blog_news..." />
           </folding>
         </state>
       </provider>

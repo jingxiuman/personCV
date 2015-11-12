@@ -356,7 +356,7 @@ UE.I18N['zh-cn'] = {
             'videoSearchReset':{'value':"清空结果"},
 
             'lang_input_fileStatus':' 当前未上传文件',
-            'startUpload':{'style':"background:url(upload.png) no-repeat;"},
+            'startUpload':{'style':"background:url(uploads.png) no-repeat;"},
 
             'lang_upload_size':"视频尺寸",
             'lang_upload_width':"宽度",

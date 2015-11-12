@@ -3049,8 +3049,8 @@
     
             /**
              * 开始上传。此方法可以从初始状态调用开始上传流程，也可以从暂停状态调用，继续上传流程。
-             * @grammar upload() => undefined
-             * @method upload
+             * @grammar uploads() => undefined
+             * @method uploads
              * @for  Uploader
              */
             start: function() {
@@ -5656,7 +5656,7 @@
         'widgets/image',
         'widgets/queue',
         'widgets/runtime',
-        'widgets/upload',
+        'widgets/uploads',
         'runtime/html5/blob',
         'runtime/html5/filepicker',
         'runtime/html5/imagemeta/exif',
