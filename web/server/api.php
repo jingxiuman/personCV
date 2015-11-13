@@ -22,6 +22,12 @@ switch($type){
     case 'add_blog':
         add_blog();
         break;
+    case 'admin_change_show':
+        admin_change_show();
+        break;
+    case 'admin_blog_del':
+        admin_blog_del();
+        break;
     default:
         echo "似乎你正在用不一样的方法看源代码呢!";
 }
@@ -65,6 +71,7 @@ function admin_blog($conn){
         $data[] = array(
             'id'=>$row['id'],
             'news_title'=> $row['news_title'],
+            'news_pic'=> '<img src="'.$row['news_pic'].'" width="64" height="64"/>',
             'newsSee'=>$row['newsSee'],
             'news_createTime'=> $row['news_createTime'],
             'news_changeTime'=> $row['news_changeTime'],
@@ -86,9 +93,10 @@ function add_blog(){
     $newsContent = $_POST['newsContent'];
 
 
-     preg_match('/<img.+src="([^"]*?)".+>/i',$newsContent,$match);
+     preg_match('/<img.+bootstrap-table="([^"]*?)".+>/i',$newsContent,$match);
+    $match = @$match[1]?$match[1]:'';
     $sql ="insert into blog_news( news_pic, news_title,  news_createTime, news_changeTime, news_author, news_content, news_show)
-VALUES('$match[1]','$newsTitle', NOW(),NOW(),'$newsAuthor','$newsContent','$newsShow') ";
+VALUES('$match','$newsTitle', NOW(),NOW(),'$newsAuthor','$newsContent','$newsShow') ";
     $re = mysqli_query($conn, $sql);
     if($re){
         echo 1;
@@ -97,3 +105,50 @@ VALUES('$match[1]','$newsTitle', NOW(),NOW(),'$newsAuthor','$newsContent','$news
     }
 
 }
+/*
+ * 修改显示状态
+ */
+function admin_change_show(){
+    global $conn;
+    $id = $_POST['id'];
+    $value = $_POST['value'];
+    if(preg_match('/^\d+$/',$id) ){
+        $sql = '';
+        if($_POST['valueType'] =='show') {
+            if( preg_match('/^\d{1}$/', $value)) {
+                $sql = "update blog_news set news_show='$value' where id='$id'";
+            }
+        }elseif($_POST['valueType'] == 'title'){
+            $sql = "update blog_news set news_title='$value' where id='$id'";
+        }
+        $re = mysqli_query($conn, $sql);
+        if($re){
+            echo 1;
+
+        }else{
+            echo 0;
+        }
+    }else{
+        echo "非法输入哦" ;
+    }
+
+}
+/*
+ * 删除波俄看
+ */
+ function admin_blog_del()
+ {
+     global $conn;
+     $id = $_POST['id'];
+     if (preg_match('/^\d+$/', $id)) {
+         $sql = "delete  from blog_news where id='$id'";
+         $re = mysqli_query($conn, $sql);
+         if($re){
+             echo 1;
+         }else{
+             echo 0;
+         }
+     }else{
+         echo "非法输入哦" ;
+     }
+ }

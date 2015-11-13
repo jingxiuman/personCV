@@ -127,7 +127,7 @@ return {
 	getScript: function (scriptLocation, callback) {
 		var head = $$('head')[0]; // Returns an array, so pick the first element.
 		if (head) {
-			// Append a new 'script' element, set its type and src attributes, add a 'load' handler that calls the callback
+			// Append a new 'script' element, set its type and bootstrap-table attributes, add a 'load' handler that calls the callback
 			head.appendChild(new Element('script', { type: 'text/javascript', src: scriptLocation}).observe('load', callback));
 		}
 	},

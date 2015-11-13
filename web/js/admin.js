@@ -110,7 +110,30 @@ var Edit_item = React.createClass({
         )
     }
 });
-
+//警告框
+var Alert_item = React.createClass({
+    handleClick: function (e) {
+        $(e.target).hide();
+    },
+    render: function () {
+        var status ;
+        switch (this.props.data.status){
+            case 'danger':
+                status = 'alert bg-danger';
+                break;
+            case 'success':
+                status ='alert bg-success';
+                break;
+        }
+        return(
+            <div className={this.props.data.show?'show':'hidden' } onClick={this.handleClick}>
+                <div className={status}  role="alert">
+                    <span className="glyphicon glyphicon-exclamation-sign"/> {this.props.data.msg} <a href="#" className="pull-right"><span className="glyphicon glyphicon-remove"/></a>
+                </div>
+            </div>
+        )
+    }
+})
 /*头部组件*/
 var Header_nav = React.createClass({
     render: function () {
@@ -267,14 +290,40 @@ var data = [
 ];
 //博客列表
 var Blog_list = React.createClass({
+    getInitialState: function () {
+        return {data:'0'}
+    },
     componentDidMount: function () {
-        $("#table").bootstrapTable({
+        var that = this;
+        var operateEvents = {
+            'click .like': function (e, value, row, index) {
+                alert('You click like action, row: ' + JSON.stringify(row));
+            },
+            'click .remove': function (e, value, row, index) {
+                if(confirm("确认删除么?")) {
+                    var valueSend = {
+                        type: 'admin_blog_del',
+                        id:row.id
+                    };
+                    that.ajaxFunc(valueSend);
+                    if(that.state.data) {
+                        $table.bootstrapTable('remove', {
+                            field: 'id',
+                            values: [row.id]
+                        });
+                    }else{
+                        alert("删除失败")
+                    }
+                }
+            }
+        };
+        var $table =  $("#table");
+       $table.bootstrapTable({
             showRefresh:true,
             showToggle:true,
             showColumns:true,
             search:true,
             pagination:true,
-
             checkbox:true,
             sortOrder:'desc',
             sortName:'id',
@@ -282,18 +331,40 @@ var Blog_list = React.createClass({
             url: '../server/api.php?type=admin_blog',
             method:'post',
             columns: [
-                {
-                field: 'blog',
-                title: '选择',
-               checkbox:true
-            }, {
+               {
                 field: 'id',
                 title: '#',
                 sortable:true
             }, {
+                field: 'news_pic',
+                title: '缩略图'
+            },{
                 field: 'news_title',
                 title: '新闻标题',
-                sortable:true
+                sortable:true,
+                align: 'center',
+                editable: {
+                    type: 'text',
+                    title: '新闻标题',
+                    validate: function (value) {
+                        value = $.trim(value);
+                        if (!value) {
+                            return 'This field is required';
+                        }
+                        var data = $table.bootstrapTable('getData'),
+                            index = $(this).parents('tr').data('index');
+                        var dataMain = data[index];
+                        var sendData={
+                            type:'admin_change_show',
+                            id:dataMain.id,
+                            valueType:'title',
+                            value:value
+                        };
+                        var result = that.ajaxFunc(sendData);
+
+                        return result;
+                    }
+                }
             }, {
                 field: 'news_author',
                 title: '文章作者',
@@ -309,15 +380,72 @@ var Blog_list = React.createClass({
             } ,{
                 field: 'newsSee',
                 title: '查看',
-                sortable:true
+                sortable:true,
+
             } ,{
-                field: 'new_show',
+                field: 'news_show',
                 title: '是否展示',
-                sortable:true
+                sortable:true,
+                align: 'center',
+                editable: {
+                    type: 'text',
+                    title: 'news_show',
+                    validate: function (value) {
+                        value = $.trim(value);
+                        if (!value) {
+                            return 'This field is required';
+                        }
+                        if (!/^\d{1}$/.test(value)) {
+                            return '这里填写是:1,否:0'
+                        }
+                        var data = $table.bootstrapTable('getData'),
+                            index = $(this).parents('tr').data('index');
+                        var dataMain = data[index];
+                        var sendData={
+                            type:'admin_change_show',
+                            id:dataMain.id,
+                            valueType:'show',
+                            value:value
+                        };
+                         that.ajaxFunc(sendData);
+
+                        return '';
+                    }
+                }
             },{
                 field: 'manager',
-                title: '管理'
+                title: '管理',
+                events: operateEvents,
+                formatter: operateFormatter
             } ]
+        });
+        function operateFormatter(value, row, index) {
+            return [
+                '<a class="like" href="javascript:void(0)" title="Like">',
+                '<i class="glyphicon glyphicon-eye-open"></i>',
+                '</a>',
+                '<a class="remove" href="javascript:void(0)" title="Remove">',
+                '<i class="glyphicon glyphicon-remove"></i>',
+                value,
+                '</a>'
+            ].join('');
+        }
+
+    },
+    ajaxFunc: function (value) {
+        $.ajax({
+            url:'../server/api.php',
+            type:'post',
+            data:value,
+            dataType:'json',
+            success: function (data) {
+                console.log(data);
+                if(data){
+                    this.setState({data:'1'});
+                }else {
+                    this.setState({data:'0'});
+                }
+            }.bind(this)
         });
     },
     render: function () {
@@ -340,7 +468,7 @@ var Blog_list = React.createClass({
 
 var Blog_public = React.createClass({
     getInitialState: function () {
-        return{data:{"show":0,'msg':''}}
+        return{data:{"show":0,'msg':'','status':'success'}}
     },
     handleSubmit: function (e) {
         e.stopPropagation();
@@ -360,9 +488,9 @@ var Blog_public = React.createClass({
             'newsShow':newsShow,
             newsContent:newsContent
         };
-        this.ajaxFunc(data)
+        this.ajaxFunc(data, dataMain)
     },
-    ajaxFunc: function (value) {
+    ajaxFunc: function (value,form) {
         $.ajax({
             url:this.props.url,
             data:value,
@@ -370,9 +498,11 @@ var Blog_public = React.createClass({
             type:'post',
             success: function (data) {
                 if(data){
-                    this.setState({data:{"show":'1',"msg":' 保存成功'}})
+                    this.setState({data:{"show":'1',"msg":' 保存成功','status':'success'}});
+                   //console.log(form)
+                    form[0].reset()
                 }else{
-                    this.setState({data:{"show":'1',"msg":' 保存失败'}})
+                    this.setState({data:{"show":'1',"msg":' 保存失败','status':'danger'}})
                 }
             }.bind(this)
         })
@@ -385,13 +515,7 @@ var Blog_public = React.createClass({
                 <div className="panel-heading"> 发布博客</div>
                 <div className="panel-body">
                     <div className="col-md-12">
-                        <div className={this.state.data.show?'show':'hidden' }>
-                            <div className="alert bg-danger "  role="alert">
-                                <span className="glyphicon glyphicon-exclamation-sign"/> {this.state.data.msg} <a href="#" className="pull-right"><span className="glyphicon glyphicon-remove"/></a>
-                            </div>
-                        </div>
-
-
+                        <Alert_item data={{show:this.state.data.show,msg:this.state.data.msg,status:this.state.data.status}} />
                         <form role="form" onSubmit={this.handleSubmit}>
                             <Input_item data={{'labelName':'文章标题','inputName':'newsTitle','placeholder':'输入文章标题'}}/>
                             <Input_item data={{'labelName':'文章作者','inputName':'newsAuthor','placeholder':'输入文章作者'}}/>

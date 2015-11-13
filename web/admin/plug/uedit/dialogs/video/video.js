@@ -272,7 +272,7 @@
 
         $G("preview").innerHTML = '<div class="previewMsg"><span>'+lang.urlError+'</span></div>'+
         '<embed class="previewVideo" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"' +
-            ' src="' + conUrl + '"' +
+            ' bootstrap-table="' + conUrl + '"' +
             ' width="' + 420  + '"' +
             ' height="' + 280  + '"' +
             ' wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" >' +
@@ -458,7 +458,7 @@
                                 if (error || !src || (/^data:/.test(src) && browser.ie && browser.version <= 7)) {
                                     $wrap.text(lang.uploadNoPreview);
                                 } else {
-                                    var $img = $('<img src="' + src + '">');
+                                    var $img = $('<img bootstrap-table="' + src + '">');
                                     $wrap.empty().append($img);
                                     $img.on('error', function () {
                                         $wrap.text(lang.uploadNoPreview);

@@ -187,7 +187,7 @@ function run(code, url, options) {
 /**
  * Load script from the provided url and pass the content to the callback.
  *
- * @param {string} url The location of the script src
+ * @param {string} url The location of the script bootstrap-table
  * @param {function} callback Function to call with the content of url
  * @internal
  */
@@ -10465,7 +10465,7 @@ define(function (_dereq_, exports, module) {
    *       file: "out.js",
    *       sourceRoot : "",
    *       sources: ["foo.js", "bar.js"],
-   *       names: ["src", "maps", "are", "fun"],
+   *       names: ["bootstrap-table", "maps", "are", "fun"],
    *       mappings: "AA,AB;;ABCDE;"
    *     }
    *
@@ -13312,7 +13312,7 @@ var restParamVisitors = _dereq_('./es6-rest-param-visitors');
 var destructuringVisitors = _dereq_('./es6-destructuring-visitors');
 
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 
 /**
  * @public
@@ -13443,7 +13443,7 @@ exports.visitorList = [
  */
 
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 
 function process(traverse, node, path, state) {
   utils.move(node.range[0], state);
@@ -13562,7 +13562,7 @@ exports.visitorList = [
 
 var base62 = _dereq_('base62');
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 var reservedWordsHelper = _dereq_('./reserved-words-helper');
 
 var declareIdentInLocalScope = utils.declareIdentInLocalScope;
@@ -14167,7 +14167,7 @@ exports.visitorList = [
  *
  */
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 
 var reservedWordsHelper = _dereq_('./reserved-words-helper');
 var restParamVisitors = _dereq_('./es6-rest-param-visitors');
@@ -14441,7 +14441,7 @@ exports.renderDestructuredComponents = renderDestructuredComponents;
  */
 
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 var reservedWordsHelper = _dereq_('./reserved-words-helper');
 
 function visitObjectConciseMethod(traverse, node, path, state) {
@@ -14511,7 +14511,7 @@ exports.visitorList = [
  *
  */
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 
 /**
  * @public
@@ -14571,7 +14571,7 @@ exports.visitorList = [
  *
  */
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 
 
 
@@ -14667,7 +14667,7 @@ exports.visitorList = [
 'use strict';
 
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 
 /**
  * http://people.mozilla.org/~jorendorff/es6-draft.html#sec-12.1.9
@@ -14899,7 +14899,7 @@ exports.renderRestExpression = renderRestExpression;
  */
 
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 
 function visitObjectLiteralSpread(traverse, node, path, state) {
   utils.catchup(node.range[0], state);
@@ -15088,7 +15088,7 @@ exports.isES3ReservedWord = function(word) {
 /*global exports:true*/
 
 var Syntax = _dereq_('esprima-fb').Syntax;
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 var reserverdWordsHelper = _dereq_('./reserved-words-helper');
 
 /**
@@ -15140,7 +15140,7 @@ exports.visitorList = [
 
 },{"../src/utils":23,"./reserved-words-helper":34,"esprima-fb":9}],36:[function(_dereq_,module,exports){
 var esprima = _dereq_('esprima-fb');
-var utils = _dereq_('../src/utils');
+var utils = _dereq_('../bootstrap-table/utils');
 
 var Syntax = esprima.Syntax;
 

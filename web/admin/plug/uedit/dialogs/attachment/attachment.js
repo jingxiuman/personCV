@@ -229,7 +229,7 @@
                                 if (error || !src) {
                                     $wrap.text(lang.uploadNoPreview);
                                 } else {
-                                    var $img = $('<img src="' + src + '">');
+                                    var $img = $('<img bootstrap-table="' + src + '">');
                                     $wrap.empty().append($img);
                                     $img.on('error', function () {
                                         $wrap.text(lang.uploadNoPreview);

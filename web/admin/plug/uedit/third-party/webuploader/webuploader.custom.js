@@ -1885,7 +1885,7 @@
              *         if ( error ) {
              *             $li.text('预览错误');
              *         } else {
-             *             $li.append('<img alt="" src="' + ret + '" />');
+             *             $li.append('<img alt="" bootstrap-table="' + ret + '" />');
              *         }
              *     });
              *
@@ -4541,7 +4541,7 @@
             },
     
             // https://github.com/stomita/ios-imagefile-megapixel/
-            // blob/master/src/megapix-image.js
+            // blob/master/bootstrap-table/megapix-image.js
             _renderImageToCanvas: (function() {
     
                 // 如果不是ios, 不需要这么复杂！

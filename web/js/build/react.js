@@ -3229,7 +3229,7 @@ var HTMLDOMPropertyConfig = {
     controls: MUST_USE_PROPERTY | HAS_BOOLEAN_VALUE,
     coords: null,
     crossOrigin: null,
-    data: null, // For `<object />` acts as `src`.
+    data: null, // For `<object />` acts as `bootstrap-table`.
     dateTime: MUST_USE_ATTRIBUTE,
     'default': HAS_BOOLEAN_VALUE,
     defer: HAS_BOOLEAN_VALUE,

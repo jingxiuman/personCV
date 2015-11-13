@@ -833,7 +833,7 @@ var utils = UE.utils = {
      * ```javascript
      *
      * UE.utils.loadFile( document, {
-     *     src:"test.js",
+     *     bootstrap-table:"test.js",
      *     tag:"script",
      *     type:"text/javascript",
      *     defer:"defer"
@@ -854,7 +854,7 @@ var utils = UE.utils = {
      * ```javascript
      *
      * UE.utils.loadFile( document, {
-     *     src:"test.js",
+     *     bootstrap-table:"test.js",
      *     tag:"script",
      *     type:"text/javascript",
      *     defer:"defer"
@@ -8440,7 +8440,7 @@ var filterWord = UE.filterWord = function () {
                         var width = str.match(/width:([ \d.]*p[tx])/i)[1],
                             height = str.match(/height:([ \d.]*p[tx])/i)[1],
                             src =  str.match(/src=\s*"([^"]*)"/i)[1];
-                        return '<img width="'+ transUnit(width) +'" height="'+transUnit(height) +'" src="' + src + '" />';
+                        return '<img width="'+ transUnit(width) +'" height="'+transUnit(height) +'" bootstrap-table="' + src + '" />';
                     } catch(e){
                         return '';
                     }
@@ -8710,7 +8710,7 @@ var filterWord = UE.filterWord = function () {
             var attrs = node.attrs;
             for (var a in attrs) {
                 //这里就针对
-                //<p>'<img src='http://nsclick.baidu.com/u.gif?&asdf=\"sdf&asdfasdfs;asdf'></p>
+                //<p>'<img bootstrap-table='http://nsclick.baidu.com/u.gif?&asdf=\"sdf&asdfasdfs;asdf'></p>
                 //这里边的\"做转换，要不用innerHTML直接被截断了，属性src
                 //有可能做的不够
                 attrhtml.push(a + (attrs[a] !== undefined ? '="' + (notTransAttrs[a] ? utils.html(attrs[a]).replace(/["]/g, function (a) {
@@ -11068,7 +11068,7 @@ UE.commands['imagefloat'] = {
  * @example
  * ```javascript
  * editor.execCommand( 'insertimage', {
- *     src:'a/b/c.jpg',
+ *     bootstrap-table:'a/b/c.jpg',
  *     width:'100',
  *     height:'100'
  * } );
@@ -11076,11 +11076,11 @@ UE.commands['imagefloat'] = {
  * @example
  * ```javascript
  * editor.execCommand( 'insertimage', [{
- *     src:'a/b/c.jpg',
+ *     bootstrap-table:'a/b/c.jpg',
  *     width:'100',
  *     height:'100'
  * },{
- *     src:'a/b/d.jpg',
+ *     bootstrap-table:'a/b/d.jpg',
  *     width:'100',
  *     height:'100'
  * }] );
@@ -11120,7 +11120,7 @@ UE.commands['insertimage'] = {
             var html = [], str = '', ci;
             ci = opt[0];
             if (opt.length == 1) {
-                str = '<img src="' + ci.src + '" ' + (ci._src ? ' _src="' + ci._src + '" ' : '') +
+                str = '<img bootstrap-table="' + ci.src + '" ' + (ci._src ? ' _src="' + ci._src + '" ' : '') +
                     (ci.width ? 'width="' + ci.width + '" ' : '') +
                     (ci.height ? ' height="' + ci.height + '" ' : '') +
                     (ci['floatStyle'] == 'left' || ci['floatStyle'] == 'right' ? ' style="float:' + ci['floatStyle'] + ';"' : '') +
@@ -11136,7 +11136,7 @@ UE.commands['insertimage'] = {
 
             } else {
                 for (var i = 0; ci = opt[i++];) {
-                    str = '<p ' + (ci['floatStyle'] == 'center' ? 'style="text-align: center" ' : '') + '><img src="' + ci.src + '" ' +
+                    str = '<p ' + (ci['floatStyle'] == 'center' ? 'style="text-align: center" ' : '') + '><img bootstrap-table="' + ci.src + '" ' +
                         (ci.width ? 'width="' + ci.width + '" ' : '') + (ci._src ? ' _src="' + ci._src + '" ' : '') +
                         (ci.height ? ' height="' + ci.height + '" ' : '') +
                         ' style="' + (ci['floatStyle'] && ci['floatStyle'] != 'center' ? 'float:' + ci['floatStyle'] + ';' : '') +
@@ -12504,7 +12504,7 @@ UE.commands['preview'] = {
         var w = window.open('', '_blank', ''),
             d = w.document;
         d.open();
-        d.write('<!DOCTYPE html><html><head><meta charset="utf-8"/><script src="'+this.options.UEDITOR_HOME_URL+'ueditor.parse.js"></script><script>' +
+        d.write('<!DOCTYPE html><html><head><meta charset="utf-8"/><script bootstrap-table="'+this.options.UEDITOR_HOME_URL+'ueditor.parse.js"></script><script>' +
             "setTimeout(function(){uParse('div',{rootPath: '"+ this.options.UEDITOR_HOME_URL +"'})},300)" +
             '</script></head><body><div>'+this.getContent(null,null,true)+'</div></body></html>');
         d.close();
@@ -17600,19 +17600,19 @@ UE.plugins['video'] = function (){
         switch (type){
             case 'image':
                 str = '<img ' + (id ? 'id="' + id+'"' : '') + ' width="'+ width +'" height="' + height + '" _url="'+url+'" class="' + classname.replace(/\bvideo-js\b/, '') + '"'  +
-                    ' src="' + me.options.UEDITOR_HOME_URL+'themes/default/images/spacer.gif" style="background:url('+me.options.UEDITOR_HOME_URL+'themes/default/images/videologo.gif) no-repeat center center; border:1px solid gray;'+(align ? 'float:' + align + ';': '')+'" />'
+                    ' bootstrap-table="' + me.options.UEDITOR_HOME_URL+'themes/default/images/spacer.gif" style="background:url('+me.options.UEDITOR_HOME_URL+'themes/default/images/videologo.gif) no-repeat center center; border:1px solid gray;'+(align ? 'float:' + align + ';': '')+'" />'
                 break;
             case 'embed':
                 str = '<embed type="application/x-shockwave-flash" class="' + classname + '" pluginspage="http://www.macromedia.com/go/getflashplayer"' +
-                    ' src="' +  utils.html(url) + '" width="' + width  + '" height="' + height  + '"'  + (align ? ' style="float:' + align + '"': '') +
+                    ' bootstrap-table="' +  utils.html(url) + '" width="' + width  + '" height="' + height  + '"'  + (align ? ' style="float:' + align + '"': '') +
                     ' wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" >';
                 break;
             case 'video':
                 var ext = url.substr(url.lastIndexOf('.') + 1);
                 if(ext == 'ogv') ext = 'ogg';
                 str = '<video' + (id ? ' id="' + id + '"' : '') + ' class="' + classname + ' video-js" ' + (align ? ' style="float:' + align + '"': '') +
-                    ' controls preload="none" width="' + width + '" height="' + height + '" src="' + url + '" data-setup="{}">' +
-                    '<source src="' + url + '" type="video/' + ext + '" /></video>';
+                    ' controls preload="none" width="' + width + '" height="' + height + '" bootstrap-table="' + url + '" data-setup="{}">' +
+                    '<source bootstrap-table="' + url + '" type="video/' + ext + '" /></video>';
                 break;
         }
         return str;
@@ -23413,10 +23413,10 @@ UE.commands['insertparagraph'] = {
 //    function createInsertStr( obj, toIframe, addParagraph ) {
 //        return !toIframe ?
 //                (addParagraph ? '<p>' : '') + '<img title="'+obj.title+'" width="' + obj.width + '" height="' + obj.height + '"' +
-//                        ' src="' + me.options.UEDITOR_HOME_URL + 'themes/default/images/spacer.gif" style="background:url(' + obj.logo+') no-repeat center center; border:1px solid gray;" class="edui-faked-webapp" _url="' + obj.url + '" />' +
+//                        ' bootstrap-table="' + me.options.UEDITOR_HOME_URL + 'themes/default/images/spacer.gif" style="background:url(' + obj.logo+') no-repeat center center; border:1px solid gray;" class="edui-faked-webapp" _url="' + obj.url + '" />' +
 //                        (addParagraph ? '</p>' : '')
 //                :
-//                '<iframe class="edui-faked-webapp" title="'+obj.title+'" width="' + obj.width + '" height="' + obj.height + '"  scrolling="no" frameborder="0" src="' + obj.url + '" logo_url = '+obj.logo+'></iframe>';
+//                '<iframe class="edui-faked-webapp" title="'+obj.title+'" width="' + obj.width + '" height="' + obj.height + '"  scrolling="no" frameborder="0" bootstrap-table="' + obj.url + '" logo_url = '+obj.logo+'></iframe>';
 //    }
 //
 //    function switchImgAndIframe( img2frame ) {
@@ -23427,7 +23427,7 @@ UE.commands['insertparagraph'] = {
 //                continue;
 //            }
 //            tmpdiv = me.document.createElement( "div" );
-//            tmpdiv.innerHTML = createInsertStr( img2frame ? {url:node.getAttribute( "_url" ), width:node.width, height:node.height,title:node.title,logo:node.style.backgroundImage.replace("url(","").replace(")","")} : {url:node.getAttribute( "src", 2 ),title:node.title, width:node.width, height:node.height,logo:node.getAttribute("logo_url")}, img2frame ? true : false,false );
+//            tmpdiv.innerHTML = createInsertStr( img2frame ? {url:node.getAttribute( "_url" ), width:node.width, height:node.height,title:node.title,logo:node.style.backgroundImage.replace("url(","").replace(")","")} : {url:node.getAttribute( "bootstrap-table", 2 ),title:node.title, width:node.width, height:node.height,logo:node.getAttribute("logo_url")}, img2frame ? true : false,false );
 //            node.parentNode.replaceChild( tmpdiv.firstChild, node );
 //        }
 //    }
@@ -23457,7 +23457,7 @@ UE.plugin.register('webapp', function (){
     function createInsertStr(obj,toEmbed){
         return  !toEmbed ?
             '<img title="'+obj.title+'" width="' + obj.width + '" height="' + obj.height + '"' +
-                ' src="' + me.options.UEDITOR_HOME_URL + 'themes/default/images/spacer.gif" _logo_url="'+obj.logo+'" style="background:url(' + obj.logo
+                ' bootstrap-table="' + me.options.UEDITOR_HOME_URL + 'themes/default/images/spacer.gif" _logo_url="'+obj.logo+'" style="background:url(' + obj.logo
                 +') no-repeat center center; border:1px solid gray;" class="edui-faked-webapp" _url="' + obj.url + '" ' +
                 (obj.align && !obj.cssfloat? 'align="' + obj.align + '"' : '') +
                 (obj.cssfloat ? 'style="float:' + obj.cssfloat + '"' : '') +
@@ -23466,7 +23466,7 @@ UE.plugin.register('webapp', function (){
             '<iframe class="edui-faked-webapp" title="'+obj.title+'" ' +
                 (obj.align && !obj.cssfloat? 'align="' + obj.align + '"' : '') +
                 (obj.cssfloat ? 'style="float:' + obj.cssfloat + '"' : '') +
-                'width="' + obj.width + '" height="' + obj.height + '"  scrolling="no" frameborder="0" src="' + obj.url + '" logo_url = "'+obj.logo+'"></iframe>'
+                'width="' + obj.width + '" height="' + obj.height + '"  scrolling="no" frameborder="0" bootstrap-table="' + obj.url + '" logo_url = "'+obj.logo+'"></iframe>'
 
     }
     return {
@@ -23602,10 +23602,10 @@ UE.plugin.register('music', function (){
                     (align && !cssfloat? 'align="' + align + '"' : '') +
                     (cssfloat ? 'style="float:' + cssfloat + '"' : '') +
                     ' width="'+ width +'" height="' + height + '" _url="'+url+'" class="edui-faked-music"' +
-                    ' src="'+me.options.langPath+me.options.lang+'/images/music.png" />'
+                    ' bootstrap-table="'+me.options.langPath+me.options.lang+'/images/music.png" />'
             :
             '<embed type="application/x-shockwave-flash" class="edui-faked-music" pluginspage="http://www.macromedia.com/go/getflashplayer"' +
-                ' src="' + url + '" width="' + width  + '" height="' + height  + '" '+ (align && !cssfloat? 'align="' + align + '"' : '') +
+                ' bootstrap-table="' + url + '" width="' + width  + '" height="' + height  + '" '+ (align && !cssfloat? 'align="' + align + '"' : '') +
                 (cssfloat ? 'style="float:' + cssfloat + '"' : '') +
                 ' wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" >';
     }
@@ -23705,7 +23705,7 @@ UE.plugin.register('autoupload', function (){
         };
 
         if (filetype == 'image') {
-            loadingHtml = '<img class="loadingclass" id="' + loadingId + '" src="' +
+            loadingHtml = '<img class="loadingclass" id="' + loadingId + '" bootstrap-table="' +
                 me.options.themePath + me.options.theme +
                 '/images/spacer.gif" title="' + (me.getLang('autoupload.loading') || '') + '" >';
             successHandler = function(data) {
@@ -23722,7 +23722,7 @@ UE.plugin.register('autoupload', function (){
             };
         } else {
             loadingHtml = '<p>' +
-                '<img class="loadingclass" id="' + loadingId + '" src="' +
+                '<img class="loadingclass" id="' + loadingId + '" bootstrap-table="' +
                 me.options.themePath + me.options.theme +
                 '/images/spacer.gif" title="' + (me.getLang('autoupload.loading') || '') + '" >' +
                 '</p>';
@@ -24458,7 +24458,7 @@ UE.plugin.register('simpleupload', function (){
                 var allowFiles = me.getOpt('imageAllowFiles');
 
                 me.focus();
-                me.execCommand('inserthtml', '<img class="loadingclass" id="' + loadingId + '" src="' + me.options.themePath + me.options.theme +'/images/spacer.gif" title="' + (me.getLang('simpleupload.loading') || '') + '" >');
+                me.execCommand('inserthtml', '<img class="loadingclass" id="' + loadingId + '" bootstrap-table="' + me.options.themePath + me.options.theme +'/images/spacer.gif" title="' + (me.getLang('simpleupload.loading') || '') + '" >');
 
                 function callback(){
                     try{
@@ -24739,7 +24739,7 @@ UE.plugin.register('insertfile', function (){
                         icon = iconDir + getFileIcon(item.url);
                         title = item.title || item.url.substr(item.url.lastIndexOf('/') + 1);
                         html += '<p style="line-height: 16px;">' +
-                            '<img style="vertical-align: middle; margin-right: 2px;" src="'+ icon + '" _src="' + icon + '" />' +
+                            '<img style="vertical-align: middle; margin-right: 2px;" bootstrap-table="'+ icon + '" _src="' + icon + '" />' +
                             '<a style="font-size:12px; color:#0066cc;" href="' + item.url +'" title="' + title + '">' + title + '</a>' +
                             '</p>';
                     }
@@ -25229,7 +25229,7 @@ UE.ui = baidu.editor.ui = {};
         getHtmlTpl: function (){
             return '<div id="##" class="edui-popup %%" onmousedown="return false;">' +
                 ' <div id="##_body" class="edui-popup-body">' +
-                ' <iframe style="position:absolute;z-index:-1;left:0;top:0;background-color: transparent;" frameborder="0" width="100%" height="100%" src="about:blank"></iframe>' +
+                ' <iframe style="position:absolute;z-index:-1;left:0;top:0;background-color: transparent;" frameborder="0" width="100%" height="100%" bootstrap-table="about:blank"></iframe>' +
                 ' <div class="edui-shadow"></div>' +
                 ' <div id="##_content" class="edui-popup-content">' +
                 this.getContentHtmlTpl() +
@@ -26996,7 +26996,7 @@ UE.ui = baidu.editor.ui = {};
                 contentHtml = this.content;
             } else if (this.iframeUrl) {
                 contentHtml = '<span id="'+ this.id +'_contmask" class="dialogcontmask"></span><iframe id="'+ this.id +
-                    '_iframe" class="%%-iframe" height="100%" width="100%" frameborder="0" src="'+ this.iframeUrl +'"></iframe>';
+                    '_iframe" class="%%-iframe" height="100%" width="100%" frameborder="0" bootstrap-table="'+ this.iframeUrl +'"></iframe>';
             }
             return contentHtml;
         },
@@ -27272,7 +27272,7 @@ UE.ui = baidu.editor.ui = {};
                 onshow: function (){
                     if (!this.iframe_rendered) {
                         this.iframe_rendered = true;
-                        this.getDom('content').innerHTML = '<iframe id="'+me.id+'_iframe" src="'+ me.iframeUrl +'" frameborder="0"></iframe>';
+                        this.getDom('content').innerHTML = '<iframe id="'+me.id+'_iframe" bootstrap-table="'+ me.iframeUrl +'" frameborder="0"></iframe>';
                         me.editor.container.style.zIndex && (this.getDom().style.zIndex = me.editor.container.style.zIndex * 1 + 1);
                     }
                 }
@@ -27494,7 +27494,7 @@ UE.ui = baidu.editor.ui = {};
                 buff = this.items;
             }
 
-            return '<div id="##" class="%% edui-toolbar" data-src="shortcutmenu" onmousedown="return false;" onselectstart="return false;" >' +
+            return '<div id="##" class="%% edui-toolbar" data-bootstrap-table="shortcutmenu" onmousedown="return false;" onselectstart="return false;" >' +
                 buff +
                 '</div>';
         }
@@ -27568,7 +27568,7 @@ UE.ui = baidu.editor.ui = {};
             return '<div id="##" class="edui-message %%">' +
             ' <div id="##_closer" class="edui-message-closer">×</div>' +
             ' <div id="##_body" class="edui-message-body edui-message-type-info">' +
-            ' <iframe style="position:absolute;z-index:-1;left:0;top:0;background-color: transparent;" frameborder="0" width="100%" height="100%" src="about:blank"></iframe>' +
+            ' <iframe style="position:absolute;z-index:-1;left:0;top:0;background-color: transparent;" frameborder="0" width="100%" height="100%" bootstrap-table="about:blank"></iframe>' +
             ' <div class="edui-shadow"></div>' +
             ' <div id="##_content" class="edui-message-content">' +
             '  </div>' +

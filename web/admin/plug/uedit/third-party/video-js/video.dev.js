@@ -2685,7 +2685,7 @@ vjs.MenuButton.prototype.unpressButton = function(){
  *
  * ```html
  * <video id="example_video_1" data-setup='{}' controls>
- *   <source src="my-source.mp4" type="video/mp4">
+ *   <source bootstrap-table="my-source.mp4" type="video/mp4">
  * </video>
  * ```
  *
@@ -2989,7 +2989,7 @@ vjs.Player.prototype.unloadTech = function(){
 //   vjs.log('unloadedTech')
 //   if (betweenFn) { betweenFn.call(); }
 //   vjs.log('LoadingTech')
-//   this.loadTech(this.techName, { src: this.cache_.src })
+//   this.loadTech(this.techName, { bootstrap-table: this.cache_.bootstrap-table })
 //   vjs.log('loadedTech')
 // },
 
@@ -3630,23 +3630,23 @@ vjs.Player.prototype.selectSource = function(sources){
  * the current playback technology (HTML5/Flash) can support the source you
  * provide. Currently only MP4 files can be used in both HTML5 and Flash.
  *
- *     myPlayer.src("http://www.example.com/path/to/video.mp4");
+ *     myPlayer.bootstrap-table("http://www.example.com/path/to/video.mp4");
  *
  * **Source Object (or element):** A javascript object containing information
  * about the source file. Use this method if you want the player to determine if
  * it can support the file using the type information.
  *
- *     myPlayer.src({ type: "video/mp4", src: "http://www.example.com/path/to/video.mp4" });
+ *     myPlayer.bootstrap-table({ type: "video/mp4", bootstrap-table: "http://www.example.com/path/to/video.mp4" });
  *
  * **Array of Source Objects:** To provide multiple versions of the source so
  * that it can be played using HTML5 across browsers you can use an array of
  * source objects. Video.js will detect which version is supported and load that
  * file.
  *
- *     myPlayer.src([
- *       { type: "video/mp4", src: "http://www.example.com/path/to/video.mp4" },
- *       { type: "video/webm", src: "http://www.example.com/path/to/video.webm" },
- *       { type: "video/ogg", src: "http://www.example.com/path/to/video.ogv" }
+ *     myPlayer.bootstrap-table([
+ *       { type: "video/mp4", bootstrap-table: "http://www.example.com/path/to/video.mp4" },
+ *       { type: "video/webm", bootstrap-table: "http://www.example.com/path/to/video.webm" },
+ *       { type: "video/ogg", bootstrap-table: "http://www.example.com/path/to/video.ogv" }
  *     ]);
  *
  * @param  {String|Object|Array=} source The source URL, object, or array of sources
@@ -3676,7 +3676,7 @@ vjs.Player.prototype.src = function(source){
       }));
     }
 
-  // Case: Source object { src: '', type: '' ... }
+  // Case: Source object { bootstrap-table: '', type: '' ... }
   } else if (source instanceof Object) {
 
     if (window['videojs'][this.techName]['canPlaySource'](source)) {
@@ -3708,7 +3708,7 @@ vjs.Player.prototype.src = function(source){
   return this;
 };
 
-// Begin loading the src data
+// Begin loading the bootstrap-table data
 // http://dev.w3.org/html5/spec/video.html#dom-media-load
 vjs.Player.prototype.load = function(){
   this.techCall('load');
@@ -5049,7 +5049,7 @@ vjs.media = {};
  * List of default API methods for any MediaTechController
  * @type {String}
  */
-vjs.media.ApiMethods = 'play,pause,paused,currentTime,setCurrentTime,duration,buffered,volume,setVolume,muted,setMuted,width,height,supportsFullScreen,enterFullScreen,src,load,currentSrc,preload,setPreload,autoplay,setAutoplay,loop,setLoop,error,networkState,readyState,seeking,initialTime,startOffsetTime,played,seekable,ended,videoTracks,audioTracks,videoWidth,videoHeight,textTracks,defaultPlaybackRate,playbackRate,mediaGroup,controller,controls,defaultMuted'.split(',');
+vjs.media.ApiMethods = 'play,pause,paused,currentTime,setCurrentTime,duration,buffered,volume,setVolume,muted,setMuted,width,height,supportsFullScreen,enterFullScreen,bootstrap-table,load,currentSrc,preload,setPreload,autoplay,setAutoplay,loop,setLoop,error,networkState,readyState,seeking,initialTime,startOffsetTime,played,seekable,ended,videoTracks,audioTracks,videoWidth,videoHeight,textTracks,defaultPlaybackRate,playbackRate,mediaGroup,controller,controls,defaultMuted'.split(',');
 // Create placeholder methods for each that warn when a method isn't supported by the current playback technology
 
 function createMethod(methodName){
@@ -5337,7 +5337,7 @@ vjs.Html5.disposeMediaElement = function(el){
     el.removeChild(el.firstChild);
   }
 
-  // remove any src reference. not setting `src=''` because that causes a warning
+  // remove any bootstrap-table reference. not setting `bootstrap-table=''` because that causes a warning
   // in firefox
   el.removeAttribute('src');
 
@@ -5455,7 +5455,7 @@ vjs.Flash = vjs.MediaTechController.extend({
 
     // There's on particularly annoying issue with this method which is that Firefox throws a security error on an offsite Flash object loaded into a dynamically created iFrame.
     // Even though the iframe was inserted into a page on the web, Firefox + Flash considers it a local app trying to access an internet file.
-    // I tried mulitple ways of setting the iframe src attribute but couldn't find a src that worked well. Tried a real/fake source, in/out of domain.
+    // I tried mulitple ways of setting the iframe bootstrap-table attribute but couldn't find a bootstrap-table that worked well. Tried a real/fake source, in/out of domain.
     // Also tried a method from stackoverflow that caused a security error in all browsers. http://stackoverflow.com/questions/2486901/how-to-set-document-domain-for-a-dynamically-generated-iframe
     // In the end the solution I found to work was setting the iframe window.location.href right before doing a document.write of the Flash object.
     // The only downside of this it seems to trigger another http request to the original page (no matter what's put in the href). Not sure why that is.
@@ -5494,11 +5494,11 @@ vjs.Flash = vjs.MediaTechController.extend({
 
       // Tried embedding the flash object through javascript in the iframe source.
       // This works in webkit but still triggers the firefox security error
-      // iFrm.src = 'javascript: document.write('"+vjs.Flash.getEmbedCode(options['swf'], flashVars, params, attributes)+"');";
+      // iFrm.bootstrap-table = 'javascript: document.write('"+vjs.Flash.getEmbedCode(options['swf'], flashVars, params, attributes)+"');";
 
       // Tried an actual local iframe just to make sure that works, but it kills the easiness of the CDN version if you require the user to host an iframe
       // We should add an option to host the iframe locally though, because it could help a lot of issues.
-      // iFrm.src = "iframe.html";
+      // iFrm.bootstrap-table = "iframe.html";
 
       // Wait until iFrame has loaded to write into it.
       vjs.on(iFrm, 'load', vjs.bind(this, function(){
@@ -5601,7 +5601,7 @@ vjs.Flash.prototype.src = function(src){
   }
 
   // Currently the SWF doesn't autoplay if you load a source later.
-  // e.g. Load player w/ no source, wait 2s, set src.
+  // e.g. Load player w/ no source, wait 2s, set bootstrap-table.
   if (this.player_.autoplay()) {
     var tech = this;
     setTimeout(function(){ tech.play(); }, 0);
@@ -5610,7 +5610,7 @@ vjs.Flash.prototype.src = function(src){
 
 vjs.Flash.prototype.currentSrc = function(){
   var src = this.el_.vjs_getProperty('currentSrc');
-  // no src, check and see if RTMP
+  // no bootstrap-table, check and see if RTMP
   if (src == null) {
     var connection = this.rtmpConnection(),
         stream = this.rtmpStream();
@@ -5965,7 +5965,7 @@ vjs.Player.prototype.textTracks = function(){
  * @param {String}  kind        Captions, subtitles, chapters, descriptions, or metadata
  * @param {String=} label       Optional label
  * @param {String=} language    Optional language
- * @param {Object=} options     Additional track options, like src
+ * @param {Object=} options     Additional track options, like bootstrap-table
  * @private
  */
 vjs.Player.prototype.addTextTrack = function(kind, label, language, options){
@@ -6100,7 +6100,7 @@ vjs.TextTrack.prototype.kind = function(){
 vjs.TextTrack.prototype.src_;
 
 /**
- * Get the track src value
+ * Get the track bootstrap-table value
  * @return {String}
  */
 vjs.TextTrack.prototype.src = function(){
