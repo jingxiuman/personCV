@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e966fd0-1cb9-4f41-8d79-3ae416efddd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/img/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/server/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin.js" afterPath="$PROJECT_DIR$/web/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/api.php" afterPath="$PROJECT_DIR$/web/server/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/config/config.php" afterPath="$PROJECT_DIR$/web/server/config/config.php" />
     </list>
     <ignored path="personCV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -716,7 +709,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447409261830</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finish login">
+      <created>1447428481593</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1447428481593</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -775,7 +774,8 @@
     <MESSAGE value="fix uedit and reactjs" />
     <MESSAGE value="get img src to newpic" />
     <MESSAGE value="finish blog list" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish blog list" />
+    <MESSAGE value="finish login" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
