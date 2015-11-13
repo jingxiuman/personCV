@@ -133,7 +133,7 @@ var Alert_item = React.createClass({
             </div>
         )
     }
-})
+});
 /*头部组件*/
 var Header_nav = React.createClass({
     render: function () {

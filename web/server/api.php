@@ -28,6 +28,9 @@ switch($type){
     case 'admin_blog_del':
         admin_blog_del();
         break;
+    case 'admin_login':
+        admin_login();
+        break;
     default:
         echo "似乎你正在用不一样的方法看源代码呢!";
 }
@@ -150,5 +153,30 @@ function admin_change_show(){
          }
      }else{
          echo "非法输入哦" ;
+     }
+ }
+
+/*
+ * 用户登陆
+ */
+
+ function admin_login(){
+     global $conn;
+     $aes= new aes();
+     $aes->setKey("benbentime");
+     $username = strip_tags($_POST['username']);
+     $password = $aes->encode($_POST['password']);
+
+
+     $sql = "select * from blog_admin where ba_username='$username' and ba_password='$password'";
+     $re = mysqli_query($conn, $sql);
+     $num = mysqli_num_rows($re);
+
+     if($num){
+         echo 1;
+         $username_string = md5("username");
+         setcookie($username_string,$aes->encode($username),time()+3600*24*7);
+     }else{
+         echo 0;
      }
  }
