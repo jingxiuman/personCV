@@ -8,18 +8,13 @@
 header("Content-Type: text/html; charset=UTF-8");
 include("config/config.php");
 
-
-$aes = new aes();
-$aes->setKey('benbentime');
-
 // 获取用户名
-$username = md5("username");
-$username_string = @$_COOKIE[$username];
+$username = new ownCookie();
+$username_string = $username->getCookie("username");
 
 
 if($username_string ) {
-    $username_value = $aes->decode($username_string);
-    $sql = "select * from blog_admin where ba_username='$username_value'";
+    $sql = "select * from blog_admin where ba_username='$username_string'";
     $re = mysqli_query($conn, $sql);
 
     if ($re) {

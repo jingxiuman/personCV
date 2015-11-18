@@ -163,7 +163,6 @@ function admin_change_show(){
  function admin_login(){
      global $conn;
      $aes= new aes();
-     $aes->setKey("benbentime");
      $username = strip_tags($_POST['username']);
      $password = $aes->encode($_POST['password']);
 

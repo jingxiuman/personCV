@@ -47,3 +47,17 @@ class aes {
         return trim($data);
     }
 }
+class ownCookie extends aes{
+    private $_secret_soid = "benbentime";
+
+    public function getCookie($data){
+        $data_md5 = md5($data.$this->_secret_soid);
+        $data_cookie = $_COOKIE[$data_md5];
+
+        return $this->decode($data_cookie);
+    }
+    public function  setCookie($key, $value,$time){
+        $key_md5 = md5($key.$this->_secret_soid);
+        $this->setCookie($key_md5,$this->encode($value), $time);
+    }
+}
