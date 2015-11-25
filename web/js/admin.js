@@ -550,7 +550,15 @@ var Index_right_main = React.createClass({
                 type:'admin_index_num'
             },
             success: function (value) {
-                this.setState({data:value});
+                console.log("amdin")
+                if(value == 302){
+                    window.location.href="login.html";
+                    console.log("no")
+                }else {
+                    console.log("yes")
+                    this.setState({data:value});
+                }
+
                 //console.log(this.state.data)
             }.bind(this)
         })

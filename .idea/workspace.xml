@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e966fd0-1cb9-4f41-8d79-3ae416efddd6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/server/addUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin.js" afterPath="$PROJECT_DIR$/web/js/admin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/api.php" afterPath="$PROJECT_DIR$/web/server/api.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/config/config.php" afterPath="$PROJECT_DIR$/web/server/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/login.php" afterPath="$PROJECT_DIR$/web/server/login.php" />
@@ -44,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/web/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="408" column="11" selection-start-line="408" selection-start-column="11" selection-end-line="408" selection-end-column="11" />
+              <caret line="553" column="31" selection-start-line="553" selection-start-column="31" selection-end-line="553" selection-end-column="31" />
               <folding>
                 <element signature="e#131#195#0" expanded="false" />
                 <element signature="e#321#397#0" expanded="false" />
@@ -76,7 +79,7 @@
                 <element signature="e#3167#3206#0" expanded="false" />
                 <element signature="e#3287#3421#0" expanded="false" />
                 <element signature="e#3467#4233#0" expanded="false" />
-                <marker date="1447427562000" expanded="true" signature="17963:18647" placeholder="&lt;xml/&gt;" />
+                <marker date="1447830210000" expanded="true" signature="17963:18647" placeholder="&lt;xml/&gt;" />
               </folding>
             </state>
           </provider>
@@ -85,7 +88,7 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -95,7 +98,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -114,12 +117,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/server/config/config.php">
+      <file leaf-file-name="addUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/server/addUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.291666">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1447837523000" expanded="true" signature="206:315" placeholder="insert into blog_admin..." />
+                <marker date="1447837523000" expanded="true" signature="206:328" placeholder="insert into blog_admin..." />
+                <marker date="1447837523000" expanded="true" signature="206:375" placeholder="insert into blog_admin..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,20 +134,23 @@
       <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/server/blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1446628291000" expanded="true" signature="200:238" placeholder="select * fro..blog_news..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/server/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2506427">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <marker date="1447828428000" expanded="true" signature="300:361" placeholder="select * fro..blog_admin..." />
+                <marker date="1447837475000" expanded="true" signature="297:329" placeholder="select * fro..blog_admin..." />
+                <marker date="1447837475000" expanded="true" signature="297:336" placeholder="select * fro..blog_token..." />
               </folding>
             </state>
           </provider>
@@ -149,20 +159,36 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/server/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-60.875">
+              <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
               <folding>
-                <marker date="1447828276000" expanded="true" signature="745:769" placeholder="select id fr..blog_news..." />
-                <marker date="1447828276000" expanded="true" signature="883:910" placeholder="select id fr..blog_project..." />
-                <marker date="1447828276000" expanded="true" signature="1034:1057" placeholder="select id fr..blog_log..." />
-                <marker date="1447828276000" expanded="true" signature="1166:1191" placeholder="select id fr..blog_admin..." />
-                <marker date="1447828276000" expanded="true" signature="1539:1562" placeholder="select * fro..blog_news..." />
-                <marker date="1447828276000" expanded="true" signature="2541:2742" placeholder="insert into blog_news..." />
-                <marker date="1447828276000" expanded="true" signature="3139:3193" placeholder="update blog_..." />
-                <marker date="1447828276000" expanded="true" signature="3279:3334" placeholder="update blog_..." />
-                <marker date="1447828276000" expanded="true" signature="3660:3697" placeholder="delete from ..." />
-                <marker date="1447828276000" expanded="true" signature="4073:4155" placeholder="select * fro..blog_admin..." />
+                <marker date="1447838075000" expanded="true" signature="885:946" placeholder="select * fro..blog_admin..." />
+                <marker date="1447838075000" expanded="true" signature="1148:1168" placeholder="select id fr..blog_..." />
+                <marker date="1447838075000" expanded="true" signature="1148:1172" placeholder="select id fr..blog_news..." />
+                <marker date="1447838075000" expanded="true" signature="1286:1303" placeholder="select id fr..bl..." />
+                <marker date="1447838075000" expanded="true" signature="1286:1313" placeholder="select id fr..blog_project..." />
+                <marker date="1447838075000" expanded="true" signature="1437:1458" placeholder="select id fr..blog_l..." />
+                <marker date="1447838075000" expanded="true" signature="1437:1460" placeholder="select id fr..blog_log..." />
+                <marker date="1447838075000" expanded="true" signature="1569:1589" placeholder="select id fr..blog_..." />
+                <marker date="1447838075000" expanded="true" signature="1569:1594" placeholder="select id fr..blog_admin..." />
+                <marker date="1447838075000" expanded="true" signature="1942:1965" placeholder="select * fro..blog_news..." />
+                <marker date="1447838075000" expanded="true" signature="2944:3145" placeholder="insert into blog_news..." />
+                <marker date="1447838075000" expanded="true" signature="3542:3596" placeholder="update blog_..." />
+                <marker date="1447838075000" expanded="true" signature="3682:3737" placeholder="update blog_..." />
+                <marker date="1447838075000" expanded="true" signature="4063:4100" placeholder="delete from ..." />
+                <marker date="1447838075000" expanded="true" signature="4449:4532" placeholder="select * fro..blog_admin..." />
+                <marker date="1447838075000" expanded="true" signature="4903:5010" placeholder="insert into blog_token..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/server/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63461536">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,12 +228,13 @@
         <option value="$PROJECT_DIR$/web/admin/plug/uedit/php/config.json" />
         <option value="$PROJECT_DIR$/web/admin/index.html" />
         <option value="$PROJECT_DIR$/web/admin/login.html" />
-        <option value="$PROJECT_DIR$/web/js/admin.js" />
         <option value="$PROJECT_DIR$/web/admin/js/login.js" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/web/server/api.php" />
-        <option value="$PROJECT_DIR$/web/server/config/config.php" />
+        <option value="$PROJECT_DIR$/web/js/admin.js" />
         <option value="$PROJECT_DIR$/web/server/login.php" />
+        <option value="$PROJECT_DIR$/web/server/addUser.php" />
+        <option value="$PROJECT_DIR$/web/server/config/config.php" />
+        <option value="$PROJECT_DIR$/web/server/api.php" />
       </list>
     </option>
   </component>
@@ -250,6 +277,9 @@
     </navigator>
     <panes>
       <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane">
         <subPane />
       </pane>
       <pane id="Scope">
@@ -330,29 +360,8 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="personcv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="admin">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
         <subPane subId="Tests" />
-      </pane>
-      <pane id="ProjectPane">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -566,6 +575,17 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -658,7 +678,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447458683291</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add class cookie">
+      <created>1447828443832</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1447828443832</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -674,7 +700,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23962805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11731044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -718,7 +744,8 @@
     <MESSAGE value="get img src to newpic" />
     <MESSAGE value="finish blog list" />
     <MESSAGE value="finish login" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish login" />
+    <MESSAGE value="add class cookie" />
+    <option name="LAST_COMMIT_MESSAGE" value="add class cookie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,13 +754,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FE/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1017,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.01923077">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,7 +1062,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/blog.php">
+    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1063,26 +1080,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
+    <entry file="file://$PROJECT_DIR$/web/server/blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.291666">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1446628291000" expanded="true" signature="200:238" placeholder="select * fro..blog_news..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="408" column="11" selection-start-line="408" selection-start-column="11" selection-end-line="408" selection-end-column="11" />
+          <caret line="553" column="31" selection-start-line="553" selection-start-column="31" selection-end-line="553" selection-end-column="31" />
           <folding>
             <element signature="e#131#195#0" expanded="false" />
             <element signature="e#321#397#0" expanded="false" />
@@ -1114,37 +1125,64 @@
             <element signature="e#3167#3206#0" expanded="false" />
             <element signature="e#3287#3421#0" expanded="false" />
             <element signature="e#3467#4233#0" expanded="false" />
-            <marker date="1447427562000" expanded="true" signature="17963:18647" placeholder="&lt;xml/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1447828276000" expanded="true" signature="745:769" placeholder="select id fr..blog_news..." />
-            <marker date="1447828276000" expanded="true" signature="883:910" placeholder="select id fr..blog_project..." />
-            <marker date="1447828276000" expanded="true" signature="1034:1057" placeholder="select id fr..blog_log..." />
-            <marker date="1447828276000" expanded="true" signature="1166:1191" placeholder="select id fr..blog_admin..." />
-            <marker date="1447828276000" expanded="true" signature="1539:1562" placeholder="select * fro..blog_news..." />
-            <marker date="1447828276000" expanded="true" signature="2541:2742" placeholder="insert into blog_news..." />
-            <marker date="1447828276000" expanded="true" signature="3139:3193" placeholder="update blog_..." />
-            <marker date="1447828276000" expanded="true" signature="3279:3334" placeholder="update blog_..." />
-            <marker date="1447828276000" expanded="true" signature="3660:3697" placeholder="delete from ..." />
-            <marker date="1447828276000" expanded="true" signature="4073:4155" placeholder="select * fro..blog_admin..." />
+            <marker date="1447830210000" expanded="true" signature="17963:18647" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/server/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2506427">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1447828428000" expanded="true" signature="300:361" placeholder="select * fro..blog_admin..." />
+            <marker date="1447837475000" expanded="true" signature="297:329" placeholder="select * fro..blog_admin..." />
+            <marker date="1447837475000" expanded="true" signature="297:336" placeholder="select * fro..blog_token..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-60.875">
+          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+          <folding>
+            <marker date="1447838075000" expanded="true" signature="885:946" placeholder="select * fro..blog_admin..." />
+            <marker date="1447838075000" expanded="true" signature="1148:1168" placeholder="select id fr..blog_..." />
+            <marker date="1447838075000" expanded="true" signature="1148:1172" placeholder="select id fr..blog_news..." />
+            <marker date="1447838075000" expanded="true" signature="1286:1303" placeholder="select id fr..bl..." />
+            <marker date="1447838075000" expanded="true" signature="1286:1313" placeholder="select id fr..blog_project..." />
+            <marker date="1447838075000" expanded="true" signature="1437:1458" placeholder="select id fr..blog_l..." />
+            <marker date="1447838075000" expanded="true" signature="1437:1460" placeholder="select id fr..blog_log..." />
+            <marker date="1447838075000" expanded="true" signature="1569:1589" placeholder="select id fr..blog_..." />
+            <marker date="1447838075000" expanded="true" signature="1569:1594" placeholder="select id fr..blog_admin..." />
+            <marker date="1447838075000" expanded="true" signature="1942:1965" placeholder="select * fro..blog_news..." />
+            <marker date="1447838075000" expanded="true" signature="2944:3145" placeholder="insert into blog_news..." />
+            <marker date="1447838075000" expanded="true" signature="3542:3596" placeholder="update blog_..." />
+            <marker date="1447838075000" expanded="true" signature="3682:3737" placeholder="update blog_..." />
+            <marker date="1447838075000" expanded="true" signature="4063:4100" placeholder="delete from ..." />
+            <marker date="1447838075000" expanded="true" signature="4449:4532" placeholder="select * fro..blog_admin..." />
+            <marker date="1447838075000" expanded="true" signature="4903:5010" placeholder="insert into blog_token..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/addUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447837523000" expanded="true" signature="206:315" placeholder="insert into blog_admin..." />
+            <marker date="1447837523000" expanded="true" signature="206:328" placeholder="insert into blog_admin..." />
+            <marker date="1447837523000" expanded="true" signature="206:375" placeholder="insert into blog_admin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63461536">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

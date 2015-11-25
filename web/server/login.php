@@ -9,12 +9,13 @@ header("Content-Type: text/html; charset=UTF-8");
 include("config/config.php");
 
 // 获取用户名
-$username = new ownCookie();
-$username_string = $username->getCookie("username");
+$token = new ownCookie();
+$token_string = $token->getCookie("token");
 
 
-if($username_string ) {
-    $sql = "select * from blog_admin where ba_username='$username_string'";
+if(strlen($token_string)>24 ) {
+
+    $sql = "select * from blog_token where bt_token";
     $re = mysqli_query($conn, $sql);
 
     if ($re) {

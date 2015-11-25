@@ -12,6 +12,7 @@ if(empty($type = strip_tags(@$_POST['type']))){
 } ;
 
 
+
 switch($type){
     case 'admin_index_num':
         admin_index_num($conn);
@@ -35,10 +36,29 @@ switch($type){
         echo "似乎你正在用不一样的方法看源代码呢!";
 }
 
+
 /*
  * 统计数据
  */
 function admin_index_num($conn){
+
+//检测是否登录了
+    $username = new ownCookie();
+    $username_string = $username->getCookie("username");
+    if(strlen($username_string)>24) {
+        $sql = "select * from blog_admin where ba_username='$username_string'";
+        $re = mysqli_query($conn, $sql);
+
+        if ($re) {
+
+        } else {
+            echo "302";
+            exit;
+        }
+    }else{
+        echo "302";
+        exit;
+    }
     $sql_blog = "select id from blog_news";
     $re_blog = mysqli_query($conn, $sql_blog);
     $num_blog = mysqli_num_rows($re_blog);
@@ -162,19 +182,24 @@ function admin_change_show(){
 
  function admin_login(){
      global $conn;
-     $aes= new aes();
      $username = strip_tags($_POST['username']);
-     $password = $aes->encode($_POST['password']);
+     $password = pass_md5($_POST['password']);
 
-
-     $sql = "select * from blog_admin where ba_username='$username' and ba_password='$password'";
+     $sql = "select id from blog_admin where ba_username='$username' and ba_password='$password'";
      $re = mysqli_query($conn, $sql);
-     $num = mysqli_num_rows($re);
 
+     $num = mysqli_num_rows($re);
      if($num){
          echo 1;
-         $username_string = md5("username");
-         setcookie($username_string,$aes->encode($username),time()+3600*24*7);
+         $coo = new ownCookie();
+         $row = mysqli_fetch_array($re);
+         $user_id = $row['id'];
+         $time = time();
+         $token = pass_md5($time.$user_id);
+         $END_date = date('Y-m-d H:i:s',strtotime('+30 day'));
+         $sql_insert = " insert into blog_token ( bt_token, bt_start, bt_end,bt_user) VALUES ('$token',NOW(),'$END_date','$user_id')";
+         mysqli_query($conn, $sql_insert);
+         $coo->setcookie("token",$username,time()+3600*7);
      }else{
          echo 0;
      }
