@@ -6,6 +6,7 @@
  * Time: 上午9:45
  */
 include("config/config.php");
+include("class/AES.class.php");
 
 if(empty($type = strip_tags(@$_POST['type']))){
     $type = strip_tags(@$_GET['type']);
@@ -41,24 +42,32 @@ switch($type){
  * 统计数据
  */
 function admin_index_num($conn){
-
+//
 //检测是否登录了
-    $username = new ownCookie();
-    $username_string = $username->getCookie("username");
-    if(strlen($username_string)>24) {
-        $sql = "select * from blog_admin where ba_username='$username_string'";
+    $username_md5 = md5("username");
+    $username_string = @$_COOKIE[$username_md5];
+    $token = @$_COOKIE['token'];
+    $num_username = strlen($token);
+    if( $num_username == 32) {
+        $now = date("Y-m-d");
+        $sql = "
+            select blog_token.id
+            from blog_admin,blog_token
+            where bt_user = blog_admin.id
+            and  ba_username = '$username_string'
+            and bt_token='$token'
+            and bt_start <= '$now'
+            and bt_end >= '$now' ";
         $re = mysqli_query($conn, $sql);
-
-        if ($re) {
-
-        } else {
-            echo "302";
-            exit;
+        $num = mysqli_num_rows($re);
+        if ($num>0) {
+            echo 302;
         }
     }else{
         echo "302";
         exit;
     }
+
     $sql_blog = "select id from blog_news";
     $re_blog = mysqli_query($conn, $sql_blog);
     $num_blog = mysqli_num_rows($re_blog);
@@ -190,16 +199,25 @@ function admin_change_show(){
 
      $num = mysqli_num_rows($re);
      if($num){
-         echo 1;
-         $coo = new ownCookie();
+
+        /*
+         * 存储token
+         */
          $row = mysqli_fetch_array($re);
          $user_id = $row['id'];
          $time = time();
          $token = pass_md5($time.$user_id);
-         $END_date = date('Y-m-d H:i:s',strtotime('+30 day'));
+         $END_date = date('Y-m-d',strtotime('+30 day'));
          $sql_insert = " insert into blog_token ( bt_token, bt_start, bt_end,bt_user) VALUES ('$token',NOW(),'$END_date','$user_id')";
          mysqli_query($conn, $sql_insert);
-         $coo->setcookie("token",$username,time()+3600*7);
+         setcookie("token", $token,time()+3600*24*7*30,"/");
+
+         $username_md5 = md5("username");
+         $aes = new AES("abcdefgh12345678");
+         $username_string = $aes->encrypt($username);
+         setcookie($username_md5, $username_string,time()+3600*24*7*30,"/");
+
+         echo 1;
      }else{
          echo 0;
      }

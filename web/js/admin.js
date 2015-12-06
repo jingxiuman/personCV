@@ -550,12 +550,12 @@ var Index_right_main = React.createClass({
                 type:'admin_index_num'
             },
             success: function (value) {
-                console.log("amdin")
+                console.log("amdin");
                 if(value == 302){
                     window.location.href="login.html";
                     console.log("no")
                 }else {
-                    console.log("yes")
+                    console.log("yes");
                     this.setState({data:value});
                 }
 
@@ -588,7 +588,7 @@ var Index_right_main = React.createClass({
 
 //初始化渲染
 ReactDOM.render(
-    <Header_nav />,
+    <Header_nav  />,
     document.getElementById("admin_header")
 );
 ReactDOM.render(

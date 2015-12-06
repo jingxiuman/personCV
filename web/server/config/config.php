@@ -16,19 +16,7 @@ mysqli_query($conn, "set names utf8");
 
 
 
-class ownCookie {
-    private $_secret_soid = "benbentime";
 
-    public function getCookie($data){
-        $data_md5 = md5($data.$this->_secret_soid);
-        $data_cookie = @$_COOKIE[$data_md5];
-
-        return $data_cookie;
-    }
-    public function  setcookie($key, $value,$time){
-        $this->setCookie($key,$value, $time);
-    }
-}
 function pass_md5($data){
     return md5($data."benbentime");
 }

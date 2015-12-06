@@ -2,332 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e966fd0-1cb9-4f41-8d79-3ae416efddd6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_chm.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_default.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_doc.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_exe.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_mv.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_psd.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_rar.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_txt.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/fileTypeImages/icon_xls.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/alignicon.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/alignicon.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/alignicon.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/alignicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/bg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/file-icons.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/file-icons.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/file-icons.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/file-icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/icons.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/icons.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/icons.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/image.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/image.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/progress.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/progress.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/success.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/success.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/success.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/images/success.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/images/bg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/images/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/images/success.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/images/success.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts0.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts1.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts2.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts3.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts4.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts5.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/images/charts5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/0.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/0.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/bface.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/bface.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/cface.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/cface.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/fface.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/fface.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/jxface2.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/jxface2.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/neweditor-tab-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/tface.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/tface.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/wface.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/wface.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/yface.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/images/yface.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/alignicon.jpg" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/alignicon.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/bg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/icons.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/icons.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/icons.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/image.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/image.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/progress.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/progress.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/success.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/success.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/success.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/images/success.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/addimg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/addimg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/brush.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/brush.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/delimg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/delimg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/delimgH.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/delimgH.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/empty.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/empty.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/emptyH.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/emptyH.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/eraser.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/eraser.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/redo.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/redo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/redoH.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/redoH.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/scale.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/scale.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/scaleH.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/scaleH.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/size.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/size.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/undo.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/undo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/undoH.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/images/undoH.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/dragicon.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/dragicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/bg.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre0.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre1.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre2.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre3.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre4.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/images/pre4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/bg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/center_focus.jpg" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/center_focus.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/file-icons.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/file-icons.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/file-icons.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/file-icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/icons.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/icons.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/icons.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/image.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/image.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/left_focus.jpg" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/left_focus.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/none_focus.jpg" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/none_focus.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/progress.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/progress.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/right_focus.jpg" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/right_focus.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/success.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/success.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/success.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/images/success.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/fClipboard_ueditor.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/imageUploader.swf" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/imageUploader.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/addimage.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/addimage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/alldeletebtnhoverskin.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/alldeletebtnhoverskin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/alldeletebtnupskin.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/alldeletebtnupskin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/background.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/button.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/copy.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/copy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/deletedisable.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/deletedisable.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/deleteenable.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/deleteenable.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/listbackground.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/listbackground.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/localimage.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/localimage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/music.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/music.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/rotateleftdisable.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/rotateleftdisable.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/rotateleftenable.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/rotateleftenable.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/rotaterightdisable.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/rotaterightdisable.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/rotaterightenable.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/rotaterightenable.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/upload.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/images/upload.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/images/copy.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/images/copy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/images/localimage.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/images/localimage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/images/music.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/images/music.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/images/upload.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/images/upload.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/anchor.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/anchor.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/arrow.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/arrow_down.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/arrow_down.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/arrow_up.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/arrow_up.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/button-bg.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/button-bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cancelbutton.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cancelbutton.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/charts.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/charts.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cursor_h.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cursor_h.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cursor_h.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cursor_h.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cursor_v.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cursor_v.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cursor_v.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/cursor_v.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/dialog-title-bg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/dialog-title-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/filescan.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/filescan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/highlighted.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/highlighted.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/icons-all.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/icons-all.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/icons.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/icons.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/icons.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/loaderror.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/loaderror.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/loading.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/lock.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/lock.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/neweditor-tab-bg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/neweditor-tab-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/pagebreak.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/pagebreak.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/scale.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/scale.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/sortable.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/sortable.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/spacer.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/spacer.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/sparator_v.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/sparator_v.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/table-cell-align.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/table-cell-align.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/tangram-colorpicker.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/tangram-colorpicker.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/toolbar_bg.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/toolbar_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/unhighlighted.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/unhighlighted.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/upload.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/upload.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/videologo.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/videologo.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/word.gif" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/word.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/wordpaste.png" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/images/wordpaste.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/snapscreen/UEditorSnapscreen.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/font/vjs.eot" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/font/vjs.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/font/vjs.ttf" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/font/vjs.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/font/vjs.woff" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/font/vjs.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video-js.swf" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video-js.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/Uploader.swf" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/Uploader.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/zeroclipboard/ZeroClipboard.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/bg.png" afterPath="$PROJECT_DIR$/web/img/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/index.png" afterPath="$PROJECT_DIR$/web/img/index.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ueditor/php/upload/image/20151110/1447138641412307.png" afterPath="$PROJECT_DIR$/web/ueditor/php/upload/image/20151110/1447138641412307.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/server/class/AES.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap-table.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/admin/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/datepicker.css" afterPath="$PROJECT_DIR$/web/admin/css/datepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/datepicker3.css" afterPath="$PROJECT_DIR$/web/admin/css/datepicker3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/css/styles.css" afterPath="$PROJECT_DIR$/web/admin/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/admin/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/index.html" afterPath="$PROJECT_DIR$/web/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/web/admin/js/bootstrap-datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/admin/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/admin/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/chart-data.js" afterPath="$PROJECT_DIR$/web/admin/js/chart-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/chart.min.js" afterPath="$PROJECT_DIR$/web/admin/js/chart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/easypiechart-data.js" afterPath="$PROJECT_DIR$/web/admin/js/easypiechart-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/easypiechart.js" afterPath="$PROJECT_DIR$/web/admin/js/easypiechart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/web/admin/js/html5shiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/web/admin/js/jquery-1.11.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/js/respond.min.js" afterPath="$PROJECT_DIR$/web/admin/js/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/anchor/anchor.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/anchor/anchor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/attachment.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/attachment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/attachment.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/attachment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/attachment.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/attachment/attachment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/background.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/background.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/background.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/background.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/background.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/background/background.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/chart.config.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/chart.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/charts.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/charts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/charts.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/charts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/charts.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/charts/charts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/emotion.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/emotion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/emotion.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/emotion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/emotion.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/emotion/emotion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/gmap/gmap.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/gmap/gmap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/help/help.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/help/help.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/help/help.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/help/help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/help/help.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/help/help.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/image.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/image.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/image.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/image.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/image.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/image/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/insertframe/insertframe.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/insertframe/insertframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/internal.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/internal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/link/link.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/link/link.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/map/map.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/map/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/map/show.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/map/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/music/music.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/music/music.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/music/music.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/music/music.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/music/music.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/music/music.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/preview/preview.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/preview/preview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/scrawl.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/scrawl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/scrawl.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/scrawl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/scrawl.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/scrawl/scrawl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/searchreplace/searchreplace.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/searchreplace/searchreplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/searchreplace/searchreplace.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/searchreplace/searchreplace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/snapscreen/snapscreen.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/snapscreen/snapscreen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/spechars/spechars.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/spechars/spechars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/spechars/spechars.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/spechars/spechars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittable.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittable.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittable.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittable.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittd.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittip.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/table/edittip.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/config.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/template.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/template.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/template.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/template/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/video.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/video.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/video.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/video.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/video.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/video/video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/webapp/webapp.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/webapp/webapp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/tangram.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/tangram.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/wordimage.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/wordimage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/wordimage.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/dialogs/wordimage/wordimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/index.html" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/en.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/en/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/zh-cn.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/lang/zh-cn/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/Uploader.class.php" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/Uploader.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/action_crawler.php" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/action_crawler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/action_list.php" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/action_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/action_upload.php" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/action_upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/config.json" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/php/controller.php" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/php/controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/css/ueditor.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/css/ueditor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/css/ueditor.min.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/css/ueditor.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/dialogbase.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/default/dialogbase.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/themes/iframe.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/themes/iframe.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/SyntaxHighlighter/shCore.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/SyntaxHighlighter/shCore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/SyntaxHighlighter/shCoreDefault.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/codemirror/codemirror.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/codemirror/codemirror.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/codemirror/codemirror.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/mootools-adapter.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/mootools-adapter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/mootools-adapter.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/prototype-adapter.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/prototype-adapter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/prototype-adapter.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/standalone-framework.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/standalone-framework.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/adapters/standalone-framework.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/highcharts-more.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/highcharts-more.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/highcharts-more.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/highcharts-more.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/highcharts.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/highcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/highcharts.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/annotations.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/annotations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/annotations.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/annotations.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/canvas-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/canvas-tools.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/data.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/data.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/data.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/drilldown.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/drilldown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/drilldown.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/exporting.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/exporting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/exporting.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/exporting.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/funnel.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/funnel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/funnel.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/funnel.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/heatmap.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/heatmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/heatmap.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/map.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/map.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/map.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/no-data-to-display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/modules/no-data-to-display.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/dark-blue.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/dark-blue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/dark-green.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/dark-green.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/gray.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/gray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/grid.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/skies.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/highcharts/themes/skies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/jquery-1.10.2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/jquery-1.10.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/jquery-1.10.2.min.map" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/jquery-1.10.2.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/font/vjs.svg" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/font/vjs.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video-js.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video-js.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video-js.min.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video-js.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video.dev.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/video-js/video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.css" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.custom.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.custom.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.custom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.flashonly.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.flashonly.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.flashonly.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.flashonly.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.html5only.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.html5only.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.html5only.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.html5only.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.withoutimage.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.withoutimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/webuploader/webuploader.withoutimage.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/zeroclipboard/ZeroClipboard.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/zeroclipboard/ZeroClipboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/third-party/zeroclipboard/ZeroClipboard.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.all.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.all.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.all.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.config.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.parse.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.parse.min.js" afterPath="$PROJECT_DIR$/web/admin/plug/uedit/ueditor.parse.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/tables/data1.json" afterPath="$PROJECT_DIR$/web/admin/tables/data1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/tables/data2.json" afterPath="$PROJECT_DIR$/web/admin/tables/data2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/index.css" afterPath="$PROJECT_DIR$/web/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin.js" afterPath="$PROJECT_DIR$/web/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/build/JSXTransformer.js" afterPath="$PROJECT_DIR$/web/js/build/JSXTransformer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/build/react-dom.js" afterPath="$PROJECT_DIR$/web/js/build/react-dom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/build/react-dom.min.js" afterPath="$PROJECT_DIR$/web/js/build/react-dom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/build/react-with-addons.js" afterPath="$PROJECT_DIR$/web/js/build/react-with-addons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/build/react-with-addons.min.js" afterPath="$PROJECT_DIR$/web/js/build/react-with-addons.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/build/react.js" afterPath="$PROJECT_DIR$/web/js/build/react.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/build/react.min.js" afterPath="$PROJECT_DIR$/web/js/build/react.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/index.js" afterPath="$PROJECT_DIR$/web/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/list.js" afterPath="$PROJECT_DIR$/web/js/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/less/index.less" afterPath="$PROJECT_DIR$/web/less/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/list.html" afterPath="$PROJECT_DIR$/web/list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/api.php" afterPath="$PROJECT_DIR$/web/server/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/blog.php" afterPath="$PROJECT_DIR$/web/server/blog.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/config/config.php" afterPath="$PROJECT_DIR$/web/server/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/index.php" afterPath="$PROJECT_DIR$/web/server/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/list.php" afterPath="$PROJECT_DIR$/web/server/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/server/login.php" afterPath="$PROJECT_DIR$/web/server/login.php" />
     </list>
     <ignored path="personCV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -354,6 +34,38 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - personBlog@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="blog_token" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - personBlog@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - personBlog@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="blog_admin" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -362,62 +74,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37810946">
-              <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
-              <folding>
-                <element signature="e#131#195#0" expanded="false" />
-                <element signature="e#321#397#0" expanded="false" />
-                <element signature="e#435#512#0" expanded="false" />
-                <element signature="e#524#530#0" expanded="false" />
-                <element signature="e#597#1312#0" expanded="false" />
-                <element signature="e#628#1296#0" expanded="false" />
-                <element signature="e#690#1277#0" expanded="false" />
-                <element signature="e#757#1254#0" expanded="false" />
-                <element signature="e#814#959#0" expanded="false" />
-                <element signature="e#984#1227#0" expanded="false" />
-                <element signature="e#1358#2051#0" expanded="false" />
-                <element signature="e#1364#1435#0" expanded="false" />
-                <element signature="e#1467#1715#0" expanded="false" />
-                <element signature="e#1570#1636#0" expanded="false" />
-                <element signature="e#1640#1709#0" expanded="false" />
-                <element signature="e#1741#2049#0" expanded="false" />
-                <element signature="e#1772#2033#0" expanded="false" />
-                <element signature="e#2097#2911#0" expanded="false" />
-                <element signature="e#2130#2379#0" expanded="false" />
-                <element signature="e#2234#2300#0" expanded="false" />
-                <element signature="e#2304#2373#0" expanded="false" />
-                <element signature="e#2405#2909#0" expanded="false" />
-                <element signature="e#2473#2592#0" expanded="false" />
-                <element signature="e#2623#2893#0" expanded="false" />
-                <element signature="e#2723#2874#0" expanded="false" />
-                <element signature="e#3467#4233#0" expanded="false" />
-                <marker date="1447830210000" expanded="true" signature="17963:18647" placeholder="&lt;xml/&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/js/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -471,11 +133,15 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/server/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.608696">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
-                <marker date="1447837475000" expanded="true" signature="297:329" placeholder="select * fro..blog_admin..." />
-                <marker date="1447837475000" expanded="true" signature="297:336" placeholder="select * fro..blog_token..." />
+                <marker date="1449415031000" expanded="true" signature="481:654" placeholder="select id fr..blog_admin..." />
+                <marker date="1449415031000" expanded="true" signature="481:671" placeholder="select blog_..blog_admin..." />
+                <marker date="1449415031000" expanded="true" signature="481:681" placeholder="select blog_..blog_admin..." />
+                <marker date="1449415031000" expanded="true" signature="481:683" placeholder="select blog_..blog_admin..." />
+                <marker date="1449415031000" expanded="true" signature="481:705" placeholder="select blog_..blog_admin..." />
+                <marker date="1449415031000" expanded="true" signature="481:722" placeholder="select blog_..blog_admin..." />
               </folding>
             </state>
           </provider>
@@ -484,26 +150,80 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/server/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+            <state vertical-scroll-proportion="-23.73913">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
               <folding>
-                <marker date="1447838075000" expanded="true" signature="885:946" placeholder="select * fro..blog_admin..." />
-                <marker date="1447838075000" expanded="true" signature="1148:1168" placeholder="select id fr..blog_..." />
-                <marker date="1447838075000" expanded="true" signature="1148:1172" placeholder="select id fr..blog_news..." />
-                <marker date="1447838075000" expanded="true" signature="1286:1303" placeholder="select id fr..bl..." />
-                <marker date="1447838075000" expanded="true" signature="1286:1313" placeholder="select id fr..blog_project..." />
-                <marker date="1447838075000" expanded="true" signature="1437:1458" placeholder="select id fr..blog_l..." />
-                <marker date="1447838075000" expanded="true" signature="1437:1460" placeholder="select id fr..blog_log..." />
-                <marker date="1447838075000" expanded="true" signature="1569:1589" placeholder="select id fr..blog_..." />
-                <marker date="1447838075000" expanded="true" signature="1569:1594" placeholder="select id fr..blog_admin..." />
-                <marker date="1447838075000" expanded="true" signature="1942:1965" placeholder="select * fro..blog_news..." />
-                <marker date="1447838075000" expanded="true" signature="2944:3145" placeholder="insert into blog_news..." />
-                <marker date="1447838075000" expanded="true" signature="3542:3596" placeholder="update blog_..." />
-                <marker date="1447838075000" expanded="true" signature="3682:3737" placeholder="update blog_..." />
-                <marker date="1447838075000" expanded="true" signature="4063:4100" placeholder="delete from ..." />
-                <marker date="1447838075000" expanded="true" signature="4449:4532" placeholder="select * fro..blog_admin..." />
-                <marker date="1447838075000" expanded="true" signature="4903:5010" placeholder="insert into blog_token..." />
+                <marker date="1449415298000" expanded="true" signature="1020:1273" placeholder="select blog_..blog_admin..." />
+                <marker date="1449415298000" expanded="true" signature="1478:1498" placeholder="select id fr..blog_..." />
+                <marker date="1449415298000" expanded="true" signature="1478:1502" placeholder="select id fr..blog_news..." />
+                <marker date="1449415298000" expanded="true" signature="1616:1633" placeholder="select id fr..bl..." />
+                <marker date="1449415298000" expanded="true" signature="1616:1643" placeholder="select id fr..blog_project..." />
+                <marker date="1449415298000" expanded="true" signature="1767:1788" placeholder="select id fr..blog_l..." />
+                <marker date="1449415298000" expanded="true" signature="1767:1790" placeholder="select id fr..blog_log..." />
+                <marker date="1449415298000" expanded="true" signature="1899:1919" placeholder="select id fr..blog_..." />
+                <marker date="1449415298000" expanded="true" signature="1899:1924" placeholder="select id fr..blog_admin..." />
+                <marker date="1449415298000" expanded="true" signature="2272:2295" placeholder="select * fro..blog_news..." />
+                <marker date="1449415298000" expanded="true" signature="3274:3475" placeholder="insert into blog_news..." />
+                <marker date="1449415298000" expanded="true" signature="3872:3926" placeholder="update blog_..." />
+                <marker date="1449415298000" expanded="true" signature="4012:4067" placeholder="update blog_..." />
+                <marker date="1449415298000" expanded="true" signature="4393:4430" placeholder="delete from ..." />
+                <marker date="1449415298000" expanded="true" signature="4779:4862" placeholder="select * fro..blog_admin..." />
+                <marker date="1449415298000" expanded="true" signature="5220:5327" placeholder="insert into blog_token..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7039801">
+              <caret line="590" column="16" selection-start-line="590" selection-start-column="16" selection-end-line="590" selection-end-column="16" />
+              <folding>
+                <element signature="e#131#195#0" expanded="false" />
+                <element signature="e#321#397#0" expanded="false" />
+                <element signature="e#435#512#0" expanded="false" />
+                <element signature="e#597#1312#0" expanded="false" />
+                <element signature="e#628#1296#0" expanded="false" />
+                <element signature="e#690#1277#0" expanded="false" />
+                <element signature="e#757#1254#0" expanded="false" />
+                <element signature="e#814#959#0" expanded="false" />
+                <element signature="e#984#1227#0" expanded="false" />
+                <element signature="e#1358#2051#0" expanded="false" />
+                <element signature="e#1364#1435#0" expanded="false" />
+                <element signature="e#1467#1715#0" expanded="false" />
+                <element signature="e#1570#1636#0" expanded="false" />
+                <element signature="e#1640#1709#0" expanded="false" />
+                <element signature="e#1741#2049#0" expanded="false" />
+                <element signature="e#1772#2033#0" expanded="false" />
+                <element signature="e#2097#2911#0" expanded="false" />
+                <element signature="e#2130#2379#0" expanded="false" />
+                <element signature="e#2234#2300#0" expanded="false" />
+                <element signature="e#2304#2373#0" expanded="false" />
+                <element signature="e#2405#2909#0" expanded="false" />
+                <element signature="e#2473#2592#0" expanded="false" />
+                <element signature="e#2623#2893#0" expanded="false" />
+                <element signature="e#2723#2874#0" expanded="false" />
+                <element signature="e#2954#3423#0" expanded="false" />
+                <element signature="e#3467#4233#0" expanded="false" />
+                <element signature="e#5828#6097#0" expanded="false" />
+                <element signature="e#6142#9098#0" expanded="false" />
+                <element signature="e#9144#9289#0" expanded="false" />
+                <element signature="e#9335#9537#0" expanded="false" />
+                <element signature="e#10258#16095#0" expanded="false" />
+                <element signature="e#16143#18707#0" expanded="false" />
+                <marker date="1449415431000" expanded="true" signature="17963:18647" placeholder="&lt;xml/&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AES.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/server/class/AES.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="170" column="10" selection-start-line="170" selection-start-column="10" selection-end-line="170" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -512,7 +232,7 @@
         <entry file="file://$PROJECT_DIR$/web/server/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -555,11 +275,11 @@
         <option value="$PROJECT_DIR$/web/admin/login.html" />
         <option value="$PROJECT_DIR$/web/admin/js/login.js" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/web/js/admin.js" />
-        <option value="$PROJECT_DIR$/web/server/login.php" />
         <option value="$PROJECT_DIR$/web/server/addUser.php" />
         <option value="$PROJECT_DIR$/web/server/config/config.php" />
+        <option value="$PROJECT_DIR$/web/server/login.php" />
         <option value="$PROJECT_DIR$/web/server/api.php" />
+        <option value="$PROJECT_DIR$/web/js/admin.js" />
       </list>
     </option>
   </component>
@@ -601,7 +321,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
+      <pane id="ProjectPane">
         <subPane />
       </pane>
       <pane id="Scope">
@@ -655,104 +375,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="server">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="personcv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="server">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="config">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="personcv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="less">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="personcv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="personcv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="admin">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="personcv">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="web">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="admin">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="js">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -761,7 +383,7 @@
         </subPane>
         <subPane subId="Tests" />
       </pane>
-      <pane id="ProjectPane">
+      <pane id="Scratches">
         <subPane />
       </pane>
     </panes>
@@ -779,11 +401,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/server/class" />
       <recent name="$PROJECT_DIR$/web/admin/img" />
       <recent name="$PROJECT_DIR$/web/admin" />
       <recent name="$PROJECT_DIR$/web/admin/plug" />
       <recent name="$PROJECT_DIR$/web/admin/plug/fileUpload" />
-      <recent name="$PROJECT_DIR$/web/server" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -973,26 +595,18 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1007,18 +621,6 @@
       <command value="run-script" />
       <scripts />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -1105,7 +707,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447828443832</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add some files">
+      <created>1449229245265</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1449229245265</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1119,11 +727,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24665257" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11731044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1138,7 +747,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11731044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1166,22 +774,16 @@
     <MESSAGE value="finish blog list" />
     <MESSAGE value="finish login" />
     <MESSAGE value="add class cookie" />
-    <option name="LAST_COMMIT_MESSAGE" value="add class cookie" />
+    <MESSAGE value="add some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FE/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1400,23 +1002,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/plug/bootstrap-table/locale/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6551723">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/plug/bootstrap-table/extensions/editable/README.md">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/list.html">
@@ -1468,15 +1070,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446628291000" expanded="true" signature="200:238" placeholder="select * fro..blog_news..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/addUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447837523000" expanded="true" signature="206:315" placeholder="insert into blog_admin..." />
+            <marker date="1447837523000" expanded="true" signature="206:328" placeholder="insert into blog_admin..." />
+            <marker date="1447837523000" expanded="true" signature="206:375" placeholder="insert into blog_admin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/class/AES.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="170" column="10" selection-start-line="170" selection-start-column="10" selection-end-line="170" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="258" column="5" selection-start-line="258" selection-start-column="5" selection-end-line="258" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.608696">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <marker date="1449415031000" expanded="true" signature="481:654" placeholder="select id fr..blog_admin..." />
+            <marker date="1449415031000" expanded="true" signature="481:671" placeholder="select blog_..blog_admin..." />
+            <marker date="1449415031000" expanded="true" signature="481:681" placeholder="select blog_..blog_admin..." />
+            <marker date="1449415031000" expanded="true" signature="481:683" placeholder="select blog_..blog_admin..." />
+            <marker date="1449415031000" expanded="true" signature="481:705" placeholder="select blog_..blog_admin..." />
+            <marker date="1449415031000" expanded="true" signature="481:722" placeholder="select blog_..blog_admin..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.73913">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <marker date="1449415298000" expanded="true" signature="1020:1273" placeholder="select blog_..blog_admin..." />
+            <marker date="1449415298000" expanded="true" signature="1478:1498" placeholder="select id fr..blog_..." />
+            <marker date="1449415298000" expanded="true" signature="1478:1502" placeholder="select id fr..blog_news..." />
+            <marker date="1449415298000" expanded="true" signature="1616:1633" placeholder="select id fr..bl..." />
+            <marker date="1449415298000" expanded="true" signature="1616:1643" placeholder="select id fr..blog_project..." />
+            <marker date="1449415298000" expanded="true" signature="1767:1788" placeholder="select id fr..blog_l..." />
+            <marker date="1449415298000" expanded="true" signature="1767:1790" placeholder="select id fr..blog_log..." />
+            <marker date="1449415298000" expanded="true" signature="1899:1919" placeholder="select id fr..blog_..." />
+            <marker date="1449415298000" expanded="true" signature="1899:1924" placeholder="select id fr..blog_admin..." />
+            <marker date="1449415298000" expanded="true" signature="2272:2295" placeholder="select * fro..blog_news..." />
+            <marker date="1449415298000" expanded="true" signature="3274:3475" placeholder="insert into blog_news..." />
+            <marker date="1449415298000" expanded="true" signature="3872:3926" placeholder="update blog_..." />
+            <marker date="1449415298000" expanded="true" signature="4012:4067" placeholder="update blog_..." />
+            <marker date="1449415298000" expanded="true" signature="4393:4430" placeholder="delete from ..." />
+            <marker date="1449415298000" expanded="true" signature="4779:4862" placeholder="select * fro..blog_admin..." />
+            <marker date="1449415298000" expanded="true" signature="5220:5327" placeholder="insert into blog_token..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37810946">
-          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.7039801">
+          <caret line="590" column="16" selection-start-line="590" selection-start-column="16" selection-end-line="590" selection-end-column="16" />
           <folding>
             <element signature="e#131#195#0" expanded="false" />
             <element signature="e#321#397#0" expanded="false" />
             <element signature="e#435#512#0" expanded="false" />
-            <element signature="e#524#530#0" expanded="false" />
             <element signature="e#597#1312#0" expanded="false" />
             <element signature="e#628#1296#0" expanded="false" />
             <element signature="e#690#1277#0" expanded="false" />
@@ -1498,109 +1211,16 @@
             <element signature="e#2473#2592#0" expanded="false" />
             <element signature="e#2623#2893#0" expanded="false" />
             <element signature="e#2723#2874#0" expanded="false" />
+            <element signature="e#2954#3423#0" expanded="false" />
             <element signature="e#3467#4233#0" expanded="false" />
-            <marker date="1447830210000" expanded="true" signature="17963:18647" placeholder="&lt;xml/&gt;" />
+            <element signature="e#5828#6097#0" expanded="false" />
+            <element signature="e#6142#9098#0" expanded="false" />
+            <element signature="e#9144#9289#0" expanded="false" />
+            <element signature="e#9335#9537#0" expanded="false" />
+            <element signature="e#10258#16095#0" expanded="false" />
+            <element signature="e#16143#18707#0" expanded="false" />
+            <marker date="1449415431000" expanded="true" signature="17963:18647" placeholder="&lt;xml/&gt;" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="258" column="5" selection-start-line="258" selection-start-column="5" selection-end-line="258" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/addUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1447837523000" expanded="true" signature="206:315" placeholder="insert into blog_admin..." />
-            <marker date="1447837523000" expanded="true" signature="206:328" placeholder="insert into blog_admin..." />
-            <marker date="1447837523000" expanded="true" signature="206:375" placeholder="insert into blog_admin..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1446628291000" expanded="true" signature="200:238" placeholder="select * fro..blog_news..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1447837475000" expanded="true" signature="297:329" placeholder="select * fro..blog_admin..." />
-            <marker date="1447837475000" expanded="true" signature="297:336" placeholder="select * fro..blog_token..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
-          <folding>
-            <marker date="1447838075000" expanded="true" signature="885:946" placeholder="select * fro..blog_admin..." />
-            <marker date="1447838075000" expanded="true" signature="1148:1168" placeholder="select id fr..blog_..." />
-            <marker date="1447838075000" expanded="true" signature="1148:1172" placeholder="select id fr..blog_news..." />
-            <marker date="1447838075000" expanded="true" signature="1286:1303" placeholder="select id fr..bl..." />
-            <marker date="1447838075000" expanded="true" signature="1286:1313" placeholder="select id fr..blog_project..." />
-            <marker date="1447838075000" expanded="true" signature="1437:1458" placeholder="select id fr..blog_l..." />
-            <marker date="1447838075000" expanded="true" signature="1437:1460" placeholder="select id fr..blog_log..." />
-            <marker date="1447838075000" expanded="true" signature="1569:1589" placeholder="select id fr..blog_..." />
-            <marker date="1447838075000" expanded="true" signature="1569:1594" placeholder="select id fr..blog_admin..." />
-            <marker date="1447838075000" expanded="true" signature="1942:1965" placeholder="select * fro..blog_news..." />
-            <marker date="1447838075000" expanded="true" signature="2944:3145" placeholder="insert into blog_news..." />
-            <marker date="1447838075000" expanded="true" signature="3542:3596" placeholder="update blog_..." />
-            <marker date="1447838075000" expanded="true" signature="3682:3737" placeholder="update blog_..." />
-            <marker date="1447838075000" expanded="true" signature="4063:4100" placeholder="delete from ..." />
-            <marker date="1447838075000" expanded="true" signature="4449:4532" placeholder="select * fro..blog_admin..." />
-            <marker date="1447838075000" expanded="true" signature="4903:5010" placeholder="insert into blog_token..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
