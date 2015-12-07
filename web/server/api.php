@@ -33,6 +33,9 @@ switch($type){
     case 'admin_login':
         admin_login();
         break;
+    case 'admin_user':
+        admin_user();
+        break;
     default:
         echo "似乎你正在用不一样的方法看源代码呢!";
 }
@@ -222,3 +225,13 @@ function admin_change_show(){
          echo 0;
      }
  }
+/*
+ * 获取用户名
+ */
+function admin_user(){
+    $username_md5 = md5('username');
+    $username_cookie = $_COOKIE[$username_md5];
+    $aes = new AES("abcdefgh12345678");
+    $username =  $aes->decrypt($username_cookie);
+    echo $username;
+}

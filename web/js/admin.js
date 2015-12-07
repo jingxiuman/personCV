@@ -136,6 +136,22 @@ var Alert_item = React.createClass({
 });
 /*头部组件*/
 var Header_nav = React.createClass({
+    getInitialState: function () {
+        return {data:''}
+    },
+    componentDidMount: function () {
+        $.ajax({
+            url:this.props.url,
+            type:'post',
+            dataType:'text',
+            data:{
+                type:'admin_user'
+            },
+            success: function (value) {
+                this.setState({data:value});
+            }.bind(this)
+        })
+    },
     render: function () {
         return(
             <div className="container-fluid">
@@ -146,11 +162,11 @@ var Header_nav = React.createClass({
                         <span className="icon-bar"/>
                         <span className="icon-bar"/>
                     </button>
-                    <a className="navbar-brand" href="#"><span>笨笨时光机</span>仙保</a>
+                    <a className="navbar-brand" href="#"><span>笨笨时光机</span></a>
                     <ul className="user-menu">
                         <li className="dropdown pull-right">
                             <a href="#" className="dropdown-toggle" data-toggle="dropdown">
-                                <span className="glyphicon glyphicon-user"/> User <span className="caret"/>
+                                <span className="glyphicon glyphicon-user"/>{this.state.data}<span className="caret"/>
                             </a>
                             <ul className="dropdown-menu" role="menu">
                                 <li><a href="#"><span className="glyphicon glyphicon-user"/>  个人信息修改</a></li>
@@ -283,10 +299,7 @@ var data = [
     {id:1,link:'#',text:'首页',icon:'glyphicon glyphicon-dashboard',child:[]},
     {id:2,link:'#',text:'博客管理',icon:'glyphicon glyphicon-pencil',child:[{id:21,link:'#',text:'发布博客'},{id:22,link:'#',text:'博客列表'}]},
     {id:3,link:'#',text:'项目管理',icon:'glyphicon glyphicon-pencil',child:[{id:31,link:'#',text:'发布项目'},{id:32,link:'#',text:'项目列表'}]},
-    {id:4,link:'#',text:'导航设置',icon:'glyphicon glyphicon-info-sign',child:[]},
     {id:5,link:'#',text:'个人设置',icon:'glyphicon glyphicon-dashboard',child:[]},
-    {id:6,link:'#',text:'首页',icon:'glyphicon glyphicon-dashboard',child:[]},
-    {id:7,link:'#',text:'首页',icon:'glyphicon glyphicon-dashboard',child:[]}
 ];
 //博客列表
 var Blog_list = React.createClass({
@@ -588,7 +601,7 @@ var Index_right_main = React.createClass({
 
 //初始化渲染
 ReactDOM.render(
-    <Header_nav  />,
+    <Header_nav url="../server/api.php" />,
     document.getElementById("admin_header")
 );
 ReactDOM.render(
