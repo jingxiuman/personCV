@@ -36,6 +36,9 @@ switch($type){
     case 'admin_user':
         admin_user();
         break;
+    case 'cancel_login':
+        cancel_login();
+        break;
     default:
         echo "似乎你正在用不一样的方法看源代码呢!";
 }
@@ -234,4 +237,17 @@ function admin_user(){
     $aes = new AES("abcdefgh12345678");
     $username =  $aes->decrypt($username_cookie);
     echo $username;
+}
+/*
+ * 注销登录
+ */
+function cancel_login(){
+    global $conn;
+    $username_md5 = md5("username");
+    setcookie($username_md5,"",time() + 0,"/");
+    $token = $_COOKIE['token'];
+    $now = date("Y-m-d");
+    $sql ="update blog_token set bt_end = '$now' where bt_token = '$token' ";
+    $re = mysqli_query($conn, $sql);
+    setcookie("token",'',time()+0,"/");
 }
