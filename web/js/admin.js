@@ -134,10 +134,24 @@ var Alert_item = React.createClass({
         )
     }
 });
+//全局警告框
+var Alert_global = React.createClass({
+
+    render: function () {
+        return (
+        <div className="alert alert-success" role="alert">
+            <button type="button" className="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <span>,,,</span>
+        </div>
+        )
+    }
+});
 /*头部组件*/
 var Header_nav = React.createClass({
     getInitialState: function () {
-        return {data:''}
+        return {data:{username:'',alert:''}}
     },
     componentDidMount: function () {
         $.ajax({
@@ -148,7 +162,7 @@ var Header_nav = React.createClass({
                 type:'admin_user'
             },
             success: function (value) {
-                this.setState({data:value});
+                this.setState({data:{username:value,alert:''}});
             }.bind(this)
         })
     },
@@ -160,18 +174,18 @@ var Header_nav = React.createClass({
 
         switch (inner_text){
             case '个人信息修改':
-                console.log("个人信息修改")
                 break;
             case '登出':
                 data ={
                     type:'cancel_login'
                 };
+                this.sendMsg(data);
                 break;
             default:
-                console.log("默认")
+                console.log("默认");
                 break;
         }
-        this.sendMsg(data);
+
     },
     sendMsg: function (data) {
         $.ajax({
@@ -180,16 +194,16 @@ var Header_nav = React.createClass({
             dataType:'text',
             type:'post',
             success: function (reasult) {
-                if(reasult == 1){
-
+                if(reasult == 1) {
+                    window.location.href = "login.html"
                 }
-
             }
         })
     },
     render: function () {
         return(
             <div className="container-fluid">
+                <Alert_global status={this.state.data.alert} />
                 <div className="navbar-header">
                     <button type="button" className="navbar-toggle collapsed" aria-toggle="collapse" aria-target="#sidebar-collapse">
                         <span className="sr-only">Toggle navigation</span>

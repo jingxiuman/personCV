@@ -250,4 +250,5 @@ function cancel_login(){
     $sql ="update blog_token set bt_end = '$now' where bt_token = '$token' ";
     $re = mysqli_query($conn, $sql);
     setcookie("token",'',time()+0,"/");
+    echo 1;
 }

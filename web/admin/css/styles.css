@@ -1,7 +1,18 @@
 
 
 /*Global Styles*/
-
+/*
+自定义
+*/
+.msg_center {
+    position: absolute;
+    top: 11%;
+    left: 40%;
+    right: 40%;
+     display: none;
+    z-index: 9999;
+    text-align: center;
+}
 body {
 	background: #f1f4f7;
 	padding-top: 50px;
