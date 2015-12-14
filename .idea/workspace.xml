@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e966fd0-1cb9-4f41-8d79-3ae416efddd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/webpack.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FE/index.html" afterPath="$PROJECT_DIR$/FE/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/admin.js" afterPath="$PROJECT_DIR$/web/js/admin.js" />
     </list>
     <ignored path="personCV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.074074">
-              <caret line="249" column="39" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="248" column="39" selection-start-line="248" selection-start-column="39" selection-end-line="248" selection-end-column="39" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
                 <element signature="e#60#268#0" expanded="false" />
@@ -91,13 +90,8 @@
                 <element signature="e#3851#4215#0" expanded="false" />
                 <element signature="e#3950#4196#0" expanded="false" />
                 <element signature="e#4281#4618#0" expanded="false" />
-                <element signature="e#4665#7451#0" expanded="false" />
-                <element signature="e#7454#7462#0" expanded="false" />
-                <element signature="e#7771#7779#0" expanded="false" />
-                <element signature="e#7905#7926#0" expanded="false" />
-                <element signature="e#10772#10780#0" expanded="false" />
-                <element signature="e#10963#10971#0" expanded="false" />
-                <marker date="1450056522000" expanded="false" signature="19321:20005" placeholder="&lt;xml/&gt;" />
+                <marker date="1450056522000" expanded="true" signature="4700:4723" placeholder="{...}" />
+                <marker date="1450056522000" expanded="true" signature="6075:7433" placeholder="&lt;xml/&gt;" />
               </folding>
             </state>
           </provider>
@@ -106,9 +100,21 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3055199">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.4180645">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,39 +165,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="252" column="11" selection-start-line="252" selection-start-column="11" selection-end-line="252" selection-end-column="11" />
               <folding>
-                <element signature="e#6#88#0#PHP" expanded="false" />
-                <element signature="e#266#336#0#PHP" expanded="false" />
-                <element signature="e#536#599#0#PHP" expanded="false" />
-                <element signature="e#604#661#0#PHP" expanded="false" />
-                <element signature="e#666#721#0#PHP" expanded="false" />
-                <element signature="e#790#833#0#PHP" expanded="false" />
-                <element signature="e#1487#1532#0#PHP" expanded="false" />
-                <element signature="e#1538#1583#0#PHP" expanded="false" />
-                <element signature="e#2156#2295#0#PHP" expanded="false" />
-                <element signature="n#admin_blog#0;n#!!top" expanded="false" />
-                <element signature="e#2480#2977#0#PHP" expanded="false" />
-                <element signature="e#2537#2970#0#PHP" expanded="false" />
-                <element signature="n#add_blog#0;n#!!top" expanded="false" />
-                <element signature="e#3644#3700#0#PHP" expanded="false" />
-                <element signature="e#3674#3700#0#PHP" expanded="false" />
-                <element signature="n#admin_change_show#0;n#!!top" expanded="false" />
-                <element signature="e#3827#4367#0#PHP" expanded="false" />
-                <element signature="e#3886#4203#0#PHP" expanded="false" />
-                <element signature="e#3933#4066#0#PHP" expanded="false" />
-                <element signature="e#4076#4203#0#PHP" expanded="false" />
-                <element signature="e#4253#4327#0#PHP" expanded="false" />
-                <element signature="e#4292#4327#0#PHP" expanded="false" />
-                <element signature="e#4333#4367#0#PHP" expanded="false" />
-                <element signature="n#admin_blog_del#0;n#!!top" expanded="false" />
-                <element signature="e#4466#4728#0#PHP" expanded="false" />
-                <element signature="e#4608#4685#0#PHP" expanded="false" />
-                <element signature="e#4648#4685#0#PHP" expanded="false" />
-                <element signature="e#4692#4728#0#PHP" expanded="false" />
-                <element signature="n#admin_login#0;n#!!top" expanded="false" />
-                <element signature="e#5067#5830#0#PHP" expanded="false" />
-                <element signature="e#5086#5119#0#PHP" expanded="false" />
-                <element signature="e#5801#5830#0#PHP" expanded="false" />
-                <element signature="n#admin_user#0;n#!!top" expanded="false" />
                 <marker date="1449799219000" expanded="true" signature="1144:1397" placeholder="select blog_..blog_admin..." />
                 <marker date="1449799219000" expanded="false" signature="1602:1622" placeholder="select id fr..blog_..." />
                 <marker date="1449799219000" expanded="false" signature="1602:1626" placeholder="select id fr..blog_news..." />
@@ -261,6 +234,7 @@
         <option value="$PROJECT_DIR$/web/js/admin.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/web/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -334,6 +308,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personcv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="personcv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -358,7 +350,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fuckyouWeb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -583,18 +575,26 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -609,6 +609,18 @@
       <command value="run-script" />
       <scripts />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -743,7 +755,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449846639774</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add webpack&#10;">
+      <created>1450073990455</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1450073990455</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -759,10 +777,9 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12804006" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12684989" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11731044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -777,6 +794,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11731044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -811,7 +829,8 @@
     <MESSAGE value="route&#10;" />
     <MESSAGE value="finish cancel login 模块" />
     <MESSAGE value="finish cance login 模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish cance login 模块" />
+    <MESSAGE value="add webpack&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add webpack&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,13 +839,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -854,39 +866,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="false" />
-            <element signature="e#266#336#0#PHP" expanded="false" />
-            <element signature="e#536#599#0#PHP" expanded="false" />
-            <element signature="e#604#661#0#PHP" expanded="false" />
-            <element signature="e#666#721#0#PHP" expanded="false" />
-            <element signature="e#790#833#0#PHP" expanded="false" />
-            <element signature="e#1487#1532#0#PHP" expanded="false" />
-            <element signature="e#1538#1583#0#PHP" expanded="false" />
-            <element signature="e#2156#2295#0#PHP" expanded="false" />
-            <element signature="n#admin_blog#0;n#!!top" expanded="false" />
-            <element signature="e#2480#2977#0#PHP" expanded="false" />
-            <element signature="e#2537#2970#0#PHP" expanded="false" />
-            <element signature="n#add_blog#0;n#!!top" expanded="false" />
-            <element signature="e#3644#3700#0#PHP" expanded="false" />
-            <element signature="e#3674#3700#0#PHP" expanded="false" />
-            <element signature="n#admin_change_show#0;n#!!top" expanded="false" />
-            <element signature="e#3827#4367#0#PHP" expanded="false" />
-            <element signature="e#3886#4203#0#PHP" expanded="false" />
-            <element signature="e#3933#4066#0#PHP" expanded="false" />
-            <element signature="e#4076#4203#0#PHP" expanded="false" />
-            <element signature="e#4253#4327#0#PHP" expanded="false" />
-            <element signature="e#4292#4327#0#PHP" expanded="false" />
-            <element signature="e#4333#4367#0#PHP" expanded="false" />
-            <element signature="n#admin_blog_del#0;n#!!top" expanded="false" />
-            <element signature="e#4466#4728#0#PHP" expanded="false" />
-            <element signature="e#4608#4685#0#PHP" expanded="false" />
-            <element signature="e#4648#4685#0#PHP" expanded="false" />
-            <element signature="e#4692#4728#0#PHP" expanded="false" />
-            <element signature="n#admin_login#0;n#!!top" expanded="false" />
-            <element signature="e#5067#5830#0#PHP" expanded="false" />
-            <element signature="e#5086#5119#0#PHP" expanded="false" />
-            <element signature="e#5801#5830#0#PHP" expanded="false" />
-            <element signature="n#admin_user#0;n#!!top" expanded="false" />
             <marker date="1449799219000" expanded="true" signature="1144:1397" placeholder="select blog_..blog_admin..." />
             <marker date="1449799219000" expanded="false" signature="1602:1622" placeholder="select id fr..blog_..." />
             <marker date="1449799219000" expanded="false" signature="1602:1626" placeholder="select id fr..blog_news..." />
@@ -954,13 +933,8 @@
             <element signature="e#3851#4215#0" expanded="false" />
             <element signature="e#3950#4196#0" expanded="false" />
             <element signature="e#4281#4618#0" expanded="false" />
-            <element signature="e#4665#7451#0" expanded="false" />
-            <element signature="e#7454#7462#0" expanded="false" />
-            <element signature="e#7771#7779#0" expanded="false" />
-            <element signature="e#7905#7926#0" expanded="false" />
-            <element signature="e#10772#10780#0" expanded="false" />
-            <element signature="e#10963#10971#0" expanded="false" />
-            <marker date="1450056522000" expanded="false" signature="19321:20005" placeholder="&lt;xml/&gt;" />
+            <marker date="1450056522000" expanded="true" signature="4700:4723" placeholder="{...}" />
+            <marker date="1450056522000" expanded="true" signature="6075:7433" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -1120,23 +1094,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/plug/bootstrap-table/locale/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6551723">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/plug/bootstrap-table/extensions/editable/README.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+      <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/plug/bootstrap-table/extensions/editable/README.md">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/list.html">
@@ -1227,76 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5920398">
           <caret line="236" column="12" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-            <element signature="e#79#437#0" expanded="false" />
-            <element signature="e#105#435#0" expanded="false" />
-            <element signature="e#136#419#0" expanded="false" />
-            <element signature="e#154#286#0" expanded="false" />
-            <element signature="e#299#396#0" expanded="false" />
-            <element signature="e#472#799#0" expanded="false" />
-            <element signature="e#498#797#0" expanded="false" />
-            <element signature="e#560#684#0" expanded="false" />
-            <element signature="e#712#781#0" expanded="false" />
-            <element signature="e#836#1293#0" expanded="false" />
-            <element signature="e#863#1291#0" expanded="false" />
-            <element signature="e#926#1085#0" expanded="false" />
-            <element signature="e#1117#1275#0" expanded="false" />
-            <element signature="e#1169#1256#0" expanded="false" />
-            <element signature="e#1336#1794#0" expanded="false" />
-            <element signature="e#1362#1792#0" expanded="false" />
-            <element signature="e#1393#1776#0" expanded="false" />
-            <element signature="e#1506#1757#0" expanded="false" />
-            <element signature="e#1833#2217#0" expanded="false" />
-            <element signature="e#1859#2215#0" expanded="false" />
-            <element signature="e#1941#2199#0" expanded="false" />
-            <element signature="e#2110#2180#0" expanded="false" />
-            <element signature="e#2258#4006#0" expanded="false" />
-            <element signature="e#2293#2659#0" expanded="false" />
-            <element signature="e#2310#2653#0" expanded="false" />
-            <element signature="e#2330#2643#0" expanded="false" />
-            <element signature="e#2690#2746#0" expanded="false" />
-            <element signature="e#2783#3111#0" expanded="false" />
-            <element signature="e#2800#3104#0" expanded="false" />
-            <element signature="e#2929#2986#0" expanded="false" />
-            <element signature="e#3025#3083#0" expanded="false" />
-            <element signature="e#3137#4004#0" expanded="false" />
-            <element signature="e#3168#3988#0" expanded="false" />
-            <element signature="e#3212#3838#0" expanded="false" />
-            <element signature="e#3425#3815#0" expanded="false" />
-            <element signature="e#3855#3969#0" expanded="false" />
-            <element signature="e#4048#5170#0" expanded="false" />
-            <element signature="e#4084#4309#0" expanded="false" />
-            <element signature="e#4335#5168#0" expanded="false" />
-            <element signature="e#4366#5152#0" expanded="false" />
-            <element signature="e#4564#4700#0" expanded="false" />
-            <element signature="e#4717#5133#0" expanded="false" />
-            <element signature="e#4995#5110#0" expanded="false" />
-            <element signature="e#5300#5403#0" expanded="false" />
-            <element signature="e#5745#6909#0" expanded="false" />
-            <element signature="e#5801#6902#0" expanded="false" />
-            <element signature="e#5821#6892#0" expanded="false" />
-            <element signature="e#5845#6396#0" expanded="false" />
-            <element signature="e#5879#5998#0" expanded="false" />
-            <element signature="e#6026#6104#0" expanded="false" />
-            <element signature="e#6137#6378#0" expanded="false" />
-            <element signature="e#6264#6356#0" expanded="false" />
-            <element signature="e#6425#6878#0" expanded="false" />
-            <element signature="e#6453#6860#0" expanded="false" />
-            <element signature="e#6479#6838#0" expanded="false" />
-            <element signature="e#6945#7468#0" expanded="false" />
-            <element signature="e#7001#7460#0" expanded="false" />
-            <element signature="e#7153#7294#0" expanded="false" />
-            <element signature="e#7353#7439#0" expanded="false" />
-            <element signature="e#7820#10236#0" expanded="false" />
-            <element signature="e#7830#8397#0" expanded="false" />
-            <element signature="e#7850#7928#0" expanded="false" />
-            <element signature="e#7942#8109#0" expanded="false" />
-            <element signature="e#8129#8392#0" expanded="false" />
-            <element signature="e#8217#8383#0" expanded="false" />
-            <element signature="e#8412#10234#0" expanded="false" />
-            <element signature="e#8426#10229#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,86 +1211,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/server/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="252" column="11" selection-start-line="252" selection-start-column="11" selection-end-line="252" selection-end-column="11" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="false" />
-            <element signature="e#266#336#0#PHP" expanded="false" />
-            <element signature="e#536#599#0#PHP" expanded="false" />
-            <element signature="e#604#661#0#PHP" expanded="false" />
-            <element signature="e#666#721#0#PHP" expanded="false" />
-            <element signature="e#790#833#0#PHP" expanded="false" />
-            <element signature="e#1487#1532#0#PHP" expanded="false" />
-            <element signature="e#1538#1583#0#PHP" expanded="false" />
-            <element signature="e#2156#2295#0#PHP" expanded="false" />
-            <element signature="n#admin_blog#0;n#!!top" expanded="false" />
-            <element signature="e#2480#2977#0#PHP" expanded="false" />
-            <element signature="e#2537#2970#0#PHP" expanded="false" />
-            <element signature="n#add_blog#0;n#!!top" expanded="false" />
-            <element signature="e#3644#3700#0#PHP" expanded="false" />
-            <element signature="e#3674#3700#0#PHP" expanded="false" />
-            <element signature="n#admin_change_show#0;n#!!top" expanded="false" />
-            <element signature="e#3827#4367#0#PHP" expanded="false" />
-            <element signature="e#3886#4203#0#PHP" expanded="false" />
-            <element signature="e#3933#4066#0#PHP" expanded="false" />
-            <element signature="e#4076#4203#0#PHP" expanded="false" />
-            <element signature="e#4253#4327#0#PHP" expanded="false" />
-            <element signature="e#4292#4327#0#PHP" expanded="false" />
-            <element signature="e#4333#4367#0#PHP" expanded="false" />
-            <element signature="n#admin_blog_del#0;n#!!top" expanded="false" />
-            <element signature="e#4466#4728#0#PHP" expanded="false" />
-            <element signature="e#4608#4685#0#PHP" expanded="false" />
-            <element signature="e#4648#4685#0#PHP" expanded="false" />
-            <element signature="e#4692#4728#0#PHP" expanded="false" />
-            <element signature="n#admin_login#0;n#!!top" expanded="false" />
-            <element signature="e#5067#5830#0#PHP" expanded="false" />
-            <element signature="e#5086#5119#0#PHP" expanded="false" />
-            <element signature="e#5801#5830#0#PHP" expanded="false" />
-            <element signature="n#admin_user#0;n#!!top" expanded="false" />
-            <marker date="1449799219000" expanded="true" signature="1144:1397" placeholder="select blog_..blog_admin..." />
-            <marker date="1449799219000" expanded="false" signature="1602:1622" placeholder="select id fr..blog_..." />
-            <marker date="1449799219000" expanded="false" signature="1602:1626" placeholder="select id fr..blog_news..." />
-            <marker date="1449799219000" expanded="false" signature="1740:1757" placeholder="select id fr..bl..." />
-            <marker date="1449799219000" expanded="false" signature="1740:1767" placeholder="select id fr..blog_project..." />
-            <marker date="1449799219000" expanded="false" signature="1891:1912" placeholder="select id fr..blog_l..." />
-            <marker date="1449799219000" expanded="false" signature="1891:1914" placeholder="select id fr..blog_log..." />
-            <marker date="1449799219000" expanded="false" signature="2023:2043" placeholder="select id fr..blog_..." />
-            <marker date="1449799219000" expanded="false" signature="2023:2048" placeholder="select id fr..blog_admin..." />
-            <marker date="1449799219000" expanded="false" signature="2396:2419" placeholder="select * fro..blog_news..." />
-            <marker date="1449799219000" expanded="false" signature="3398:3599" placeholder="insert into blog_news..." />
-            <marker date="1449799219000" expanded="false" signature="3996:4050" placeholder="update blog_..." />
-            <marker date="1449799219000" expanded="false" signature="4136:4191" placeholder="update blog_..." />
-            <marker date="1449799219000" expanded="false" signature="4517:4554" placeholder="delete from ..." />
-            <marker date="1449799219000" expanded="false" signature="4903:4986" placeholder="select * fro..blog_admin..." />
-            <marker date="1449799219000" expanded="false" signature="5344:5451" placeholder="insert into blog_token..." />
-            <marker date="1449799219000" expanded="true" signature="6282:6339" placeholder="update blog_..." />
-            <marker date="1449799219000" expanded="true" signature="6282:6345" placeholder="update blog_..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.074074">
-          <caret line="249" column="39" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="248" column="39" selection-start-line="248" selection-start-column="39" selection-end-line="248" selection-end-column="39" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#60#268#0" expanded="false" />
@@ -1428,22 +1256,9 @@
             <element signature="e#3851#4215#0" expanded="false" />
             <element signature="e#3950#4196#0" expanded="false" />
             <element signature="e#4281#4618#0" expanded="false" />
-            <element signature="e#4665#7451#0" expanded="false" />
-            <element signature="e#7454#7462#0" expanded="false" />
-            <element signature="e#7771#7779#0" expanded="false" />
-            <element signature="e#7905#7926#0" expanded="false" />
-            <element signature="e#10772#10780#0" expanded="false" />
-            <element signature="e#10963#10971#0" expanded="false" />
-            <marker date="1450056522000" expanded="false" signature="19321:20005" placeholder="&lt;xml/&gt;" />
+            <marker date="1450056522000" expanded="true" signature="4700:4723" placeholder="{...}" />
+            <marker date="1450056522000" expanded="true" signature="6075:7433" placeholder="&lt;xml/&gt;" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,10 +1270,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/server/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="252" column="11" selection-start-line="252" selection-start-column="11" selection-end-line="252" selection-end-column="11" />
+          <folding>
+            <marker date="1449799219000" expanded="true" signature="1144:1397" placeholder="select blog_..blog_admin..." />
+            <marker date="1449799219000" expanded="false" signature="1602:1622" placeholder="select id fr..blog_..." />
+            <marker date="1449799219000" expanded="false" signature="1602:1626" placeholder="select id fr..blog_news..." />
+            <marker date="1449799219000" expanded="false" signature="1740:1757" placeholder="select id fr..bl..." />
+            <marker date="1449799219000" expanded="false" signature="1740:1767" placeholder="select id fr..blog_project..." />
+            <marker date="1449799219000" expanded="false" signature="1891:1912" placeholder="select id fr..blog_l..." />
+            <marker date="1449799219000" expanded="false" signature="1891:1914" placeholder="select id fr..blog_log..." />
+            <marker date="1449799219000" expanded="false" signature="2023:2043" placeholder="select id fr..blog_..." />
+            <marker date="1449799219000" expanded="false" signature="2023:2048" placeholder="select id fr..blog_admin..." />
+            <marker date="1449799219000" expanded="false" signature="2396:2419" placeholder="select * fro..blog_news..." />
+            <marker date="1449799219000" expanded="false" signature="3398:3599" placeholder="insert into blog_news..." />
+            <marker date="1449799219000" expanded="false" signature="3996:4050" placeholder="update blog_..." />
+            <marker date="1449799219000" expanded="false" signature="4136:4191" placeholder="update blog_..." />
+            <marker date="1449799219000" expanded="false" signature="4517:4554" placeholder="delete from ..." />
+            <marker date="1449799219000" expanded="false" signature="4903:4986" placeholder="select * fro..blog_admin..." />
+            <marker date="1449799219000" expanded="false" signature="5344:5451" placeholder="insert into blog_token..." />
+            <marker date="1449799219000" expanded="true" signature="6282:6339" placeholder="update blog_..." />
+            <marker date="1449799219000" expanded="true" signature="6282:6345" placeholder="update blog_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3055199">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.4180645">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
