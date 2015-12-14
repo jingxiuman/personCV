@@ -151,7 +151,7 @@ var Alert_global = React.createClass({
 /*头部组件*/
 var Header_nav = React.createClass({
     getInitialState: function () {
-        return {data:{username:'',alert:''}}
+        return {data:''}
     },
     componentDidMount: function () {
         $.ajax({
@@ -162,7 +162,7 @@ var Header_nav = React.createClass({
                 type:'admin_user'
             },
             success: function (value) {
-                this.setState({data:{username:value,alert:''}});
+                this.setState({data:value});
             }.bind(this)
         })
     },
@@ -176,13 +176,13 @@ var Header_nav = React.createClass({
             case '个人信息修改':
                 break;
             case '登出':
-                data ={
+                data = {
                     type:'cancel_login'
                 };
                 this.sendMsg(data);
                 break;
             default:
-                console.log("默认");
+               // console.log("默认");
                 break;
         }
 
@@ -193,8 +193,8 @@ var Header_nav = React.createClass({
             data:data,
             dataType:'text',
             type:'post',
-            success: function (reasult) {
-                if(reasult == 1) {
+            success: function (result) {
+                if(result == 1) {
                     window.location.href = "login.html"
                 }
             }
@@ -203,7 +203,7 @@ var Header_nav = React.createClass({
     render: function () {
         return(
             <div className="container-fluid">
-                <Alert_global status={this.state.data.alert} />
+
                 <div className="navbar-header">
                     <button type="button" className="navbar-toggle collapsed" aria-toggle="collapse" aria-target="#sidebar-collapse">
                         <span className="sr-only">Toggle navigation</span>
